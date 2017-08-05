@@ -61,35 +61,32 @@ public class GameWindow extends JFrame {
 
     public void readGson(){
         Gson gson = new Gson();
-        readJson = gson.fromJson(Utils.loadFileContent("map7.json"),MapJson.class);
+        readJson = gson.fromJson(Utils.loadFileContent("map.json"),MapJson.class);
     }
 
     public void addIteam(){
-       int[][] item = Utils.convert_1D_To_2D(readJson.layers.data,50,400);
-       for (int i = 0; i < 50; i++){
-           for (int j = 0; j < 400; j++){
+       int[][] item = Utils.convert_1D_To_2D(readJson.layers.data,25,200);
+       for (int i = 0; i < 20; i++){
+           for (int j = 0; j < 200; j++){
                int vt = item[i][j];
                switch (vt){
                    case 1:
-                       Lava lava = new Lava();
-                       lava.setPosition(32*j,32*i);
-                       GameObject.add(lava);
-                       System.out.println(lava.position);
+                       GameObject.add(new Lava().setPosition(32*j,32*i));
+                       break;
+                   case 6:
+                       GameObject.add(new Banana().setPosition(32*j,32*i));
                        break;
                    case 5:
-                       GameObject.add(new Banana().setPosition(16*j,16*i));
-                       break;
-                   case 2:
                        GameObject.add(new Poop().setPosition(32*j,32*i));
                        break;
-                   case 17:
-                       GameObject.add(new Condom().setPosition(16*j,16*i));
+                   case 2:
+                       GameObject.add(new Condom().setPosition(32*j,32*i));
                        break;
-                   case 21:
-                       GameObject.add(new Heart().setPosition(16*j,16*i));
+                   case 3:
+                       GameObject.add(new Heart().setPosition(32*j,32*i));
                        break;
-                   case 25:
-                       GameObject.add(new Drug().setPosition(16*i,16*j));
+                   case 4:
+                       GameObject.add(new Drug().setPosition(32*i,32*j));
                        break;
                    default: break;
                }

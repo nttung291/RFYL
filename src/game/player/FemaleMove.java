@@ -27,6 +27,6 @@ public class FemaleMove implements PlayerMove{
         if (InputManager.instance.sPressed){
             position.addUp(0,10);
         }
-        position.x = Mathx.clamp(position.x, 0,3300);
+        position.x = Mathx.clamp(position.x, 0,6000);
     }
 }

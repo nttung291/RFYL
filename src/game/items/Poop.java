@@ -10,6 +10,6 @@ import game.bases.renderer.ImageRenderer;
 public class Poop extends GameObject{
     public Poop() {
         super();
-        this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/poop-01.png"));
+        this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/poop.png"));
     }
 }

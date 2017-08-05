@@ -9,6 +9,6 @@ import game.bases.renderer.ImageRenderer;
  */
 public class Banana extends GameObject{
     public Banana() {
-        this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/Banana.png"));
+        this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/banana.png"));
     }
 }
