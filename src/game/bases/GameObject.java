@@ -57,11 +57,11 @@ public class GameObject {
         return this;
     }
 
-//    public void render(Graphics2D g2d){
-//        if (renderer != null){
-//            renderer.render(g2d,this.screenPosition);
-//        }
-//    }
+    public void render(Graphics2D g2d){
+        if (renderer != null){
+            renderer.render(g2d,this.screenPosition);
+        }
+    }
 
     public static Vector<GameObject> getGameObjects() {
         return gameObjects;
@@ -76,9 +76,9 @@ public class GameObject {
         }
     }
 
-//    public static void renderALL(Graphics2D g2d){
-//        for (GameObject gameObject : gameObjects){
-//            gameObject.render(g2d);
-//        }
-//    }
+    public static void renderALL(Graphics2D g2d){
+        for (GameObject gameObject : gameObjects){
+            gameObject.render(g2d);
+        }
+    }
 }

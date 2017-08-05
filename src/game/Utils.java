@@ -36,10 +36,10 @@ public class Utils {
         return content;
     }
 
-    public static int[][] convert_1D_To_2D(ArrayList<Integer> array, final int rows, final int cols) {
-        int[][] arr2d = new int[rows][cols];
+    public static int[][] convert_1D_To_2D(ArrayList<Integer> array, final int cows, final int cols) {
+        int[][] arr2d = new int[cows][cols];
         int sz=0;
-        for ( int i = 0; i < rows; i++ ) {
+        for ( int i = 0; i < cows; i++ ) {
             for (int j = 0; j< cols ; j++){
                 if (sz < array.size()){
                     arr2d[i][j] = array.get(sz);

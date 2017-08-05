@@ -12,7 +12,8 @@ import java.awt.*;
  */
 public class Lava extends GameObject{
     public Lava() {
-        this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/lava 1.png"));
+        super();
+        this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/lava.png"));
     }
 
 }

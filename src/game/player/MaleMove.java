@@ -1,6 +1,7 @@
 package game.player;
 
 import game.bases.Vector2D;
+import game.scenes.BackGround;
 import inputs.InputManager;
 import tklibs.Mathx;
 

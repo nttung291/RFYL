@@ -8,7 +8,7 @@ import game.bases.Vector2D;
  */
 public class Camera extends GameObject {
 
-    private GameObject followedObject;
+    public GameObject followedObject;
     private Vector2D offset;
 
     public Camera() {

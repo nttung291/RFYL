@@ -61,24 +61,26 @@ public class GameWindow extends JFrame {
 
     public void readGson(){
         Gson gson = new Gson();
-        readJson = gson.fromJson(Utils.loadFileContent("map.json"),MapJson.class);
+        readJson = gson.fromJson(Utils.loadFileContent("map7.json"),MapJson.class);
     }
 
     public void addIteam(){
-       int[][] item = Utils.convert_1D_To_2D(readJson.layers.data,37,264);
-       for (int i = 0; i < 37; i++){
-           for (int j = 0; j < 264; j++){
+       int[][] item = Utils.convert_1D_To_2D(readJson.layers.data,50,400);
+       for (int i = 0; i < 50; i++){
+           for (int j = 0; j < 400; j++){
                int vt = item[i][j];
                switch (vt){
                    case 1:
-                       GameObject.add(new Lava().setPosition(16*j,16*i));
-                       System.out.println(1);
+                       Lava lava = new Lava();
+                       lava.setPosition(32*j,32*i);
+                       GameObject.add(lava);
+                       System.out.println(lava.position);
                        break;
                    case 5:
                        GameObject.add(new Banana().setPosition(16*j,16*i));
                        break;
-                   case 13:
-                       GameObject.add(new Poop().setPosition(16*j,16*i));
+                   case 2:
+                       GameObject.add(new Poop().setPosition(32*j,32*i));
                        break;
                    case 17:
                        GameObject.add(new Condom().setPosition(16*j,16*i));
@@ -102,7 +104,6 @@ public class GameWindow extends JFrame {
         femalePlayer.setPlayerMove(new FemaleMove());
         GameObject.add(malePlayer.setPosition(20, 500));
         GameObject.add(femalePlayer.setPosition(100, 500));
-
     }
 
     public void addBackGround(){
@@ -111,7 +112,7 @@ public class GameWindow extends JFrame {
     }
 
     private void setupWindow(){
-        this.setSize(1500,600);
+        this.setSize(1600,800);
         this.setResizable(false);
         this.setTitle("Run for your life");
         this.addWindowListener(new WindowAdapter() {
@@ -163,8 +164,9 @@ public class GameWindow extends JFrame {
             femaleViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
 
             mainViewPort = new ViewPort();
-            mainViewPort.getCamera().follow(malePlayer);
+            mainViewPort.getCamera().followedObject = new GameObject();
             mainViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
+
 
             GameObject.add(maleViewPort.getCamera());
             GameObject.add(femaleViewPort.getCamera());
@@ -192,7 +194,7 @@ public class GameWindow extends JFrame {
         backBufferGraphic2D.fillRect(0, 0, this.getWidth(), this.getHeight());
 
         distance = Math.abs(maleViewPort.getCamera().screenPosition.x - femaleViewPort.getCamera().screenPosition.x);
-        if (distance > 1024){
+        if (distance > 750){
             maleViewPort.render(leftG2d, GameObject.getGameObjects());
             femaleViewPort.render(rightG2d, GameObject.getGameObjects());
             backBufferGraphic2D.drawImage(leftBufferImage, 0, 0, null);
@@ -200,6 +202,7 @@ public class GameWindow extends JFrame {
             backBufferGraphic2D.drawLine(getWidth()/2,0,getWidth()/2,600);
         }else{
             mainViewPort.render(backBufferGraphic2D,GameObject.getGameObjects());
+            mainViewPort.getCamera().followedObject.position.x = (malePlayer.position.x + femalePlayer.position.x)/2;
             backBufferGraphic2D.drawImage(backBufferImage,0,0,null);
         }
         Graphics2D graphics2D = (Graphics2D) this.getGraphics();
