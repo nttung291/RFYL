@@ -3,13 +3,14 @@ package game;
 
 import com.google.gson.Gson;
 import game.bases.GameObject;
+import game.bases.Vector2D;
 import game.gson.MapJson;
 import game.items.*;
 import game.scenes.BackGround;
 import game.viewports.ViewPort;
 import inputs.InputManager;
-import game.player.FemaleMove;
-import game.player.MaleMove;
+import game.player.FemalePlayer;
+import game.player.MalePlayer;
 import game.player.Player;
 
 import javax.swing.*;
@@ -19,7 +20,6 @@ import java.awt.event.KeyListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
 
 
 /**
@@ -96,9 +96,9 @@ public class GameWindow extends JFrame {
 
     private void addPlayer() {
         malePlayer = Player.createMalePlayer();
-        malePlayer.setPlayerMove(new MaleMove());
-        femalePlayer  = Player.createFemalePlayer();
-        femalePlayer.setPlayerMove(new FemaleMove());
+        malePlayer.setPlayerMove(new MalePlayer());
+        femalePlayer = Player.createFemalePlayer();
+        femalePlayer.setPlayerMove(new FemalePlayer());
         GameObject.add(malePlayer.setPosition(20, 500));
         GameObject.add(femalePlayer.setPosition(100, 500));
     }

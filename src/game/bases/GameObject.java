@@ -1,6 +1,8 @@
 package game.bases;
 
 
+import game.bases.physics.Physicbody;
+import game.bases.physics.Physics;
 import game.cameras.Camera;
 import game.bases.renderer.Renderer;
 
@@ -15,7 +17,7 @@ public class GameObject {
     public Vector2D screenPosition;
     public Renderer renderer;
     public Vector<GameObject> children;
-    boolean isActive;
+    public boolean isActive;
 
     public static Vector<GameObject> gameObjects = new Vector<>();
     public static Vector<GameObject> newGameObjects = new Vector<>();
@@ -30,6 +32,9 @@ public class GameObject {
 
     public static void add(GameObject gameObject){
         newGameObjects.add(gameObject);
+        if (gameObject instanceof Physicbody){
+            Physics.add((Physicbody) gameObject);
+        }
     }
 
     public static void runAll(){
@@ -68,7 +73,7 @@ public class GameObject {
     }
 
     public void render(Graphics2D g2d, Camera camera) {
-        if (renderer != null) {
+        if (renderer != null && this.isActive) {
             renderer.render(g2d, this.screenPosition, camera);
         }
         for (GameObject child: children) {
