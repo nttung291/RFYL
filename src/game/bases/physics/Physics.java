@@ -1,11 +1,9 @@
 package game.bases.physics;
 
-import game.bases.Vector2D;
-
 import java.util.Vector;
 
 /**
- * Created by SNOW on 8/5/2017.
+ * Created by Nttung PC on 7/25/2017.
  */
 public class Physics {
     private static Vector<Physicbody> bodies = new Vector<>();
@@ -14,14 +12,18 @@ public class Physics {
         bodies.add(body);
     }
 
-    public static <T extends Physicbody> T bodyinRed(BoxCollider boxCollider, Class<T> classz){
-        for (Physicbody body: bodies){
-            if (body.getBoxCollider().collideWidth(boxCollider)){
-                if (body.getClass() == classz){
+    public static <T extends Physicbody> T bodyInRect(BoxCollider boxCollider, Class<T> classZ){
+        for (Physicbody body : bodies){
+            if (body.isActive() && body.getBoxCollier().collideWith(boxCollider)){
+                if (body.getClass() == classZ){
                     return (T) body;
                 }
             }
         }
         return null;
+    }
+
+    public static void clear(){
+        bodies.clear();
     }
 }

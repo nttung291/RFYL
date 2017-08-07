@@ -11,11 +11,10 @@ import tklibs.Mathx;
  * Created by Nttung PC on 8/3/2017.
  */
 public class FemalePlayer extends Player implements PlayerMove{
-    public Vector2D velocity;
+
     public static int heart=5;
     public FemalePlayer() {
         super();
-        velocity = new Vector2D();
     }
 
     @Override
@@ -44,7 +43,7 @@ public class FemalePlayer extends Player implements PlayerMove{
     @Override
     public void run(Vector2D parentPosition) {
         super.run(parentPosition);
-        Heart eatHeart = Physics.bodyinRed(this.boxCollider, Heart.class);
+        Heart eatHeart = Physics.bodyInRect(this.boxCollider, Heart.class);
         if (eatHeart != null && eatHeart.isActive){
             heart--;
             eatHeart.getEat();

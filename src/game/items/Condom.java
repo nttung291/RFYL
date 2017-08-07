@@ -26,7 +26,7 @@ public class Condom extends GameObject implements Physicbody{
     }
 
     @Override
-    public BoxCollider getBoxCollider() {
+    public BoxCollider getBoxCollier() {
         return this.boxCollider;
     }
 }

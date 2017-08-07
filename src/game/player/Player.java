@@ -5,21 +5,35 @@ import game.bases.FrameCounter;
 import game.bases.GameObject;
 import game.bases.Vector2D;
 import game.bases.physics.BoxCollider;
+import game.bases.physics.Physics;
 import game.bases.physics.Physicbody;
 import game.bases.renderer.ImageRenderer;
+import game.items.Banana;
 
 /**
  * Created by Nttung PC on 8/3/2017.
  */
-public class Player extends GameObject implements Physicbody{
+public class Player extends GameObject implements Physicbody {
+
     PlayerMove playerMove;
     BoxCollider boxCollider;
+
+    Vector2D velocity;
+
+    FrameCounter slowPoopBullet;
+    FrameCounter cooldownBanana;
+    boolean bananaStand = false;
+
     FrameCounter frameCounter = new FrameCounter(10);
+
 
     public Player() {
         super();
         frameCounter = new FrameCounter(50);
-        boxCollider = new BoxCollider(40,40);
+        boxCollider = new BoxCollider(80,80);
+        slowPoopBullet = new FrameCounter(5);
+        cooldownBanana = new FrameCounter(30);
+        velocity = new Vector2D();
         children.add(boxCollider);
     }
 
@@ -39,15 +53,31 @@ public class Player extends GameObject implements Physicbody{
         return player;
     }
 
-    @Override
-    public void run(Vector2D parentPosition) {
-        if (playerMove != null)
-            playerMove.move(this);
-        super.run(parentPosition);
+    public void eatBanana() {
+        Banana eatBanana = Physics.bodyInRect(this.boxCollider, Banana.class);
+        if (eatBanana != null && eatBanana.isActive){
+            eatBanana.getEat();
+            bananaStand = true;
+        }
+        if (bananaStand){
+            if (cooldownBanana.run()){
+                cooldownBanana.reset();
+                bananaStand = false;
+            }
+        }
     }
 
     @Override
-    public BoxCollider getBoxCollider() {
+    public void run(Vector2D parentPosition) {
+        if (playerMove != null && !bananaStand)
+            playerMove.move(this);
+        eatBanana();
+        super.run(parentPosition);
+    }
+
+
+    @Override
+    public BoxCollider getBoxCollier() {
         return this.boxCollider;
     }
 }

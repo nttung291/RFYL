@@ -11,12 +11,11 @@ import tklibs.Mathx;
  */
 public class MalePlayer extends Player implements PlayerMove{
 
-    Vector2D velocity;
+
     public int condom=10;
 
     public MalePlayer() {
         super();
-        velocity = new Vector2D();
     }
 
     @Override
@@ -42,13 +41,16 @@ public class MalePlayer extends Player implements PlayerMove{
         position.x = Mathx.clamp(position.x, 0,6000);
     }
 
-    @Override
-    public void run(Vector2D parentPosition) {
-        Condom eatCondom = Physics.bodyinRed(this.boxCollider,Condom.class);
+    public void eatCondom(){
+        Condom eatCondom = Physics.bodyInRect(this.boxCollider,Condom.class);
         if (eatCondom != null && eatCondom.isActive){
             condom--;
             eatCondom.getEat();
         }
+    }
+    @Override
+    public void run(Vector2D parentPosition) {
+        eatCondom();
         super.run(parentPosition);
     }
 }
