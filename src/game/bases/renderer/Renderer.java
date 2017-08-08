@@ -9,6 +9,5 @@ import java.awt.*;
  * Created by Nttung PC on 8/1/2017.
  */
 public interface Renderer {
-    void render(Graphics2D g, Vector2D position);
     void render(Graphics2D g, Vector2D position, Camera camera);
 }

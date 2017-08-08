@@ -13,7 +13,7 @@ public class Banana extends GameObject implements Physicbody {
     public BoxCollider boxCollider;
     public Banana() {
         this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/banana.png"));
-        this.boxCollider = new BoxCollider(32,32);
+        this.boxCollider = new BoxCollider(5,5);
         children.add(boxCollider);
     }
 

@@ -27,7 +27,9 @@ public class Camera extends GameObject {
 
     @Override
     public void run(Vector2D parentPosition) {
-        this.position.x = followedObject.position.x;
+        if(followedObject != null) {
+            this.position.x = followedObject.position.x;
+        }
         super.run(parentPosition);
     }
 

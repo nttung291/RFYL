@@ -16,7 +16,7 @@ public class BackGround extends GameObject{
 
     public BackGround() {
         super();
-        this.imageRenderer = new ImageRenderer(Utils.loadImage("assets/images/background/citynight.png"));
+        this.imageRenderer = new ImageRenderer(Utils.loadImage("assets/images/background/background.png"));
         imageRenderer.anchor.set(0,0);
         this.renderer = imageRenderer;
         velocity = new Vector2D();

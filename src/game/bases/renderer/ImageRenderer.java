@@ -20,10 +20,6 @@ public class ImageRenderer implements Renderer{
         this.scale = new Vector2D(1,1);
     }
 
-    public void render(Graphics2D g, Vector2D position) {
-        g.drawImage(image, (int) (position.x - image.getWidth() * anchor.x),
-                (int) (position.y - image.getHeight() * anchor.y), null);
-    }
 
     public void render(Graphics2D g, Vector2D position, Camera camera) {
         Vector2D realPosition = position.subtract(image.getWidth() * anchor.x, image.getHeight() * anchor.y);

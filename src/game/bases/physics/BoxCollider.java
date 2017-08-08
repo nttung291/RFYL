@@ -39,6 +39,18 @@ public class BoxCollider extends GameObject {
         return xOverlap && yOverlap;
     }
 
+    public boolean collideWith(float top, float bottom, float left, float right) {
+        boolean xOverlap = Mathx.inRange(left, this.left(), this.right())
+                || Mathx.inRange(this.left(), left, right);
+
+        boolean yOverlap = Mathx.inRange(top, this.top(), this.bottom())
+                || Mathx.inRange(this.top(), top, bottom);
+
+        return xOverlap && yOverlap;
+    }
+
+
+
     @Override
     public String toString() {
         return "BoxCollider{" +
