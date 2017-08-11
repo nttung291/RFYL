@@ -2,7 +2,312 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RFYL-ci.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/background/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingleft/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/jumpleft/img4.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/jumpright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/standleft/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/standleft/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/standright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/standright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitleft/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/throwshit/throwshitright/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img8 - Copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/jumpleft/img4.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/jumpright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img2.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img3.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img4.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img6.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img7.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/standleft/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/standleft/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/standright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/standright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img2.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img3.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img4.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img5.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img6.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img7.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/banana/banana1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/banana/banana2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/banana/banana3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/banana/banana4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/condom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/drug/drug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/drug/drug1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/drug/drug2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/drug/drug3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/drug/drug4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/drug/drug5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/heart/heart1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/heart/heart2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/heart/heart3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/lava.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poop8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/items/poop/poopexplosion/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingright/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/jumpleft/img4.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/jumpright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img2.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img3.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img4.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img6.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img7.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/runright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/standleft/img1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/standleft/img2.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/standright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/standright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitleft/img1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitleft/img2.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitleft/img3.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitleft/img4.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitleft/img5.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitleft/img6.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitleft/img7.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitright/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitright/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitright/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitright/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/throwshit/throwshitright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/map.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/Program.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/Contraints.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/GameObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/Vector2D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/ImageRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/Renderer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/cameras/Camera.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/gson/Layer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/gson/MapJson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/gson/Tileset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/items/Banana.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/items/Condom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/items/Drug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/items/Heart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/items/Lava.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/items/Poop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/BackGround.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Settings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/viewports/ViewPort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/inputs/InputListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/inputs/InputManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/tklibs/AudioUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/tklibs/Mathx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/tklibs/SpriteUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Program.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/GameWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/Contraints.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/FrameCounter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/GameObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/GameObjectPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/Vector2D.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/physics/BoxCollider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/physics/Physicbody.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/physics/Physics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/bases/renderer/Renderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/cameras/Camera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/gson/Layer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/gson/MapJson.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/gson/Tileset.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/items/Banana.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/items/Condom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/items/Drug.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/items/Heart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/items/Lava.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/items/Poop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/items/PoopExplosion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/player/MaleAnimator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/player/MalePlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/player/Player.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/player/ThrowPoop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/scenes/BackGround.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/scenes/Settings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/viewports/ViewPort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/inputs/InputListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/inputs/InputManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tklibs/AudioUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tklibs/Mathx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tklibs/SpriteUtils.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,98 +322,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#eatPoop#0;class#Player#0" expanded="false" />
-                <element signature="method#eatPoopBullet#0;class#Player#0" expanded="false" />
-                <element signature="method#eatBanana#0;class#Player#0" expanded="false" />
-                <element signature="method#eatDrug#0;class#Player#0" expanded="false" />
-                <element signature="method#moveHorizontal#0;class#Player#0" expanded="false" />
-                <element signature="method#moveVertical#0;class#Player#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FemaleAnimator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/FemaleAnimator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="64" column="79" lean-forward="true" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaleAnimator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/game/player/MaleAnimator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1008">
-              <caret line="76" column="90" lean-forward="false" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FemalePlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/FemalePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="65" column="65" lean-forward="false" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
-              <folding>
-                <element signature="method#move#0;class#FemalePlayer#0" expanded="false" />
-                <element signature="method#castPoop#0;class#FemalePlayer#0" expanded="false" />
-                <element signature="method#cooldown#0;class#FemalePlayer#0" expanded="false" />
-                <marker date="1502469274504" expanded="true" signature="3213:3219" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MalePlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="91" column="68" lean-forward="false" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#move#0;class#MalePlayer#0" expanded="false" />
-                <element signature="method#castPoop#0;class#MalePlayer#0" expanded="false" />
-                <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
-                <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
-                <marker date="1502469274520" expanded="true" signature="3244:3250" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="184" column="66" lean-forward="false" selection-start-line="184" selection-start-column="66" selection-end-line="184" selection-end-column="66" />
-              <folding>
-                <element signature="method#addIteam#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#addBackGround#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupWindow#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupInput#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#render#0;class#GameWindow#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -313,14 +527,6 @@
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maleplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="throwshit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -340,25 +546,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="maleplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="femaleplayer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,7 +872,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502471392216</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="core game 3">
+      <created>1502471458022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502471458022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -705,7 +900,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -777,12 +972,6 @@
           <line>195</line>
           <properties />
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/game/player/MaleAnimator.java</url>
-          <line>128</line>
-          <properties />
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="14" />
@@ -1006,10 +1195,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,13 +1227,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1015#1016#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,9 +1235,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,15 +1251,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="184" column="66" lean-forward="false" selection-start-line="184" selection-start-column="66" selection-end-line="184" selection-end-column="66" />
-          <folding>
-            <element signature="method#addIteam#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#addBackGround#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupWindow#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupInput#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#render#0;class#GameWindow#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,14 +1259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="91" column="68" lean-forward="false" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#castPoop#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
-            <marker date="1502469274520" expanded="true" signature="3244:3250" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,15 +1267,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#eatPoop#0;class#Player#0" expanded="false" />
-            <element signature="method#eatPoopBullet#0;class#Player#0" expanded="false" />
-            <element signature="method#eatBanana#0;class#Player#0" expanded="false" />
-            <element signature="method#eatDrug#0;class#Player#0" expanded="false" />
-            <element signature="method#moveHorizontal#0;class#Player#0" expanded="false" />
-            <element signature="method#moveVertical#0;class#Player#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,9 +1275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="980">
           <caret line="64" column="79" lean-forward="true" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,12 +1283,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="65" column="65" lean-forward="false" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
-          <folding>
-            <element signature="method#move#0;class#FemalePlayer#0" expanded="false" />
-            <element signature="method#castPoop#0;class#FemalePlayer#0" expanded="false" />
-            <element signature="method#cooldown#0;class#FemalePlayer#0" expanded="false" />
-            <marker date="1502469274504" expanded="true" signature="3213:3219" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
