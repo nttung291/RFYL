@@ -273,10 +273,6 @@
               <option name="myItemId" value="artifacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RFYL_ci_jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -292,10 +288,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nttung PC\Documents\RunForYourLife\assets\images\items\banana" />
-      <recent name="C:\Users\Nttung PC\Documents\RunForYourLife\assets\images\items\drug" />
-      <recent name="C:\Users\Nttung PC\IdeaProjects\RFYL-ci\assets\images" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="game.items" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nttung PC\Documents\RunForYourLife\assets\images\items\poop" />
@@ -309,8 +303,11 @@
       <recent name="game.bases.physics" />
       <recent name="game.bases" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="game.items" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nttung PC\Documents\RunForYourLife" />
+      <recent name="C:\Users\Nttung PC\Documents\RunForYourLife\assets\images\items\banana" />
+      <recent name="C:\Users\Nttung PC\Documents\RunForYourLife\assets\images\items\drug" />
+      <recent name="C:\Users\Nttung PC\IdeaProjects\RFYL-ci\assets\images" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -1893,7 +1890,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502487615654</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="core game 8">
+      <created>1502487668308</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1502487668308</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
