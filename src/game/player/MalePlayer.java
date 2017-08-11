@@ -8,6 +8,7 @@ import game.bases.physics.Physics;
 import game.items.Condom;
 import game.items.Lava;
 import inputs.InputManager;
+import tklibs.Mathx;
 
 import static game.GameWindow.checkLevel;
 import static game.player.FemalePlayer.heart;
@@ -24,7 +25,6 @@ public class MalePlayer extends Player{
     public static Player instanceMale;
     MaleAnimator maleAnimator;
     FrameCounter waitting;
-    Contraints contraints;
 
     public MalePlayer() {
         super();
@@ -33,7 +33,6 @@ public class MalePlayer extends Player{
         maleAnimator = new MaleAnimator();
         this.renderer = maleAnimator;
         waitting = new FrameCounter(80);
-        contraints = new Contraints(0,800,500,5600);
     }
     public void malemove(){
         this.velocity.y += gravity;
@@ -49,11 +48,12 @@ public class MalePlayer extends Player{
                 this.velocity.y -= 28;
             }
         }
+
         moveHorizontal();
         position.x += velocity.x;
         moveVertical();
         position.y += velocity.y;
-        this.constraints.make(position);
+        position.x =  Mathx.clamp(position.x,10,6000);
     }
     @Override
     public void move() {

@@ -93,7 +93,7 @@ public class Level2Scene extends Scene {
     private void addPlayer() {
         malePlayer = new Player().createMalePlayer();
         femalePlayer = Player.createFemalePlayer();
-        GameObject.add(malePlayer.setPosition(5400, 670));
-        GameObject.add(femalePlayer.setPosition(5600, 670));
+        GameObject.add(malePlayer.setPosition(6000, 670));
+        GameObject.add(femalePlayer.setPosition(6200, 670));
     }
 }
