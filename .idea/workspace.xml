@@ -2,7 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/jumpleft/img5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/jumpright/img5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/player/GirlAnimator.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img8 - Copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/jumpleft/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/jumpright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img7.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingleft/img4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/fallingright/img4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img7.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img8.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img7.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img8.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/standright/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/standright/img1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/standright/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/standright/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitright/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/GameWindow.java" afterPath="$PROJECT_DIR$/src/game/GameWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,19 +89,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
+      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="269">
+              <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#eatPoop#0;class#Player#0" expanded="false" />
-                <element signature="method#eatPoopBullet#0;class#Player#0" expanded="false" />
-                <element signature="method#eatBanana#0;class#Player#0" expanded="false" />
-                <element signature="method#eatDrug#0;class#Player#0" expanded="false" />
-                <element signature="method#moveHorizontal#0;class#Player#0" expanded="false" />
-                <element signature="method#moveVertical#0;class#Player#0" expanded="false" />
+                <element signature="method#addIteam#0;class#GameWindow#0" expanded="false" />
+                <element signature="method#addPlayer#0;class#GameWindow#0" expanded="false" />
+                <element signature="method#addBackGround#0;class#GameWindow#0" expanded="false" />
+                <element signature="method#setupInput#0;class#GameWindow#0" expanded="false" />
+                <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
+                <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
+                <element signature="method#render#0;class#GameWindow#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FemalePlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/FemalePlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+              <folding>
+                <element signature="method#move#0;class#FemalePlayer#0" expanded="false" />
+                <element signature="method#castPoop#0;class#FemalePlayer#0" expanded="false" />
+                <element signature="method#cooldown#0;class#FemalePlayer#0" expanded="false" />
+                <element signature="e#3008#3009#0" expanded="true" />
+                <element signature="e#3045#3046#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +126,8 @@
       <file leaf-file-name="FemaleAnimator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/player/FemaleAnimator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="64" column="79" lean-forward="true" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
+            <state relative-caret-position="507">
+              <caret line="170" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="170" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,62 +135,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaleAnimator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GirlAnimator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/GirlAnimator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaleAnimator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/player/MaleAnimator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1008">
+            <state relative-caret-position="21">
               <caret line="76" column="90" lean-forward="false" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FemalePlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/FemalePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="65" column="65" lean-forward="false" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
-              <folding>
-                <element signature="method#move#0;class#FemalePlayer#0" expanded="false" />
-                <element signature="method#castPoop#0;class#FemalePlayer#0" expanded="false" />
-                <element signature="method#cooldown#0;class#FemalePlayer#0" expanded="false" />
-                <marker date="1502469274504" expanded="true" signature="3213:3219" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MalePlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="91" column="68" lean-forward="false" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#move#0;class#MalePlayer#0" expanded="false" />
-                <element signature="method#castPoop#0;class#MalePlayer#0" expanded="false" />
-                <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
-                <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
-                <marker date="1502469274520" expanded="true" signature="3244:3250" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="184" column="66" lean-forward="false" selection-start-line="184" selection-start-column="66" selection-end-line="184" selection-end-column="66" />
-              <folding>
-                <element signature="method#addIteam#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#addBackGround#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupWindow#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupInput#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#render#0;class#GameWindow#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inputs/InputListener.java" />
         <option value="$PROJECT_DIR$/src/player/Player.java" />
         <option value="$PROJECT_DIR$/src/game/viewports/ViewPortManager.java" />
         <option value="$PROJECT_DIR$/src/player/MaleMove.java" />
@@ -179,12 +227,13 @@
         <option value="$PROJECT_DIR$/src/game/items/Heart.java" />
         <option value="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" />
         <option value="$PROJECT_DIR$/src/game/player/PlayerAnimator.java" />
-        <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
         <option value="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
-        <option value="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
         <option value="$PROJECT_DIR$/src/game/player/Player.java" />
         <option value="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" />
         <option value="$PROJECT_DIR$/src/game/player/MaleAnimator.java" />
+        <option value="$PROJECT_DIR$/src/game/player/GirlAnimator.java" />
+        <option value="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
+        <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
       </list>
     </option>
   </component>
@@ -252,113 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inputs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maleplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="throwshit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maleplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RunForYourLife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -713,12 +656,34 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3183315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -794,21 +759,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inputs/InputListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/viewports/ViewPortManager.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar!/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5418">
-          <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/gson/MapJson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -844,11 +794,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/items/lava.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/items/lava.png" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25284">
@@ -863,11 +809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/items/condom.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/items/condom.png" />
     <entry file="file://$PROJECT_DIR$/src/game/bases/physics/Physicbody.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -924,7 +866,7 @@
         <state relative-caret-position="281">
           <caret line="26" column="78" lean-forward="false" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -984,16 +926,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/items/poop/poop2.psd" />
-    <entry file="file://$PROJECT_DIR$/assets/images/items/poop/poop1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/items/poop/poop2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/items/poop/poop1.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/items/poop/poop2.png" />
     <entry file="file://$PROJECT_DIR$/src/game/items/Drug.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1007,8 +941,8 @@
         <state relative-caret-position="357">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1017,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,9 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,22 +996,6 @@
         <state relative-caret-position="203">
           <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="184" column="66" lean-forward="false" selection-start-line="184" selection-start-column="66" selection-end-line="184" selection-end-column="66" />
-          <folding>
-            <element signature="method#addIteam#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#addBackGround#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupWindow#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupInput#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#render#0;class#GameWindow#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,7 +1009,6 @@
             <element signature="method#castPoop#0;class#MalePlayer#0" expanded="false" />
             <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
             <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
-            <marker date="1502469274520" expanded="true" signature="3244:3250" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1116,10 +1029,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/MaleAnimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="76" column="90" lean-forward="false" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/girlplayer/runleft/img4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/girlplayer/throwshit/throwshitleft/img1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/GirlAnimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/player/FemaleAnimator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="64" column="79" lean-forward="true" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
+        <state relative-caret-position="507">
+          <caret line="170" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="170" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1128,22 +1069,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/player/FemalePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="65" column="65" lean-forward="false" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
+        <state relative-caret-position="266">
+          <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
           <folding>
             <element signature="method#move#0;class#FemalePlayer#0" expanded="false" />
             <element signature="method#castPoop#0;class#FemalePlayer#0" expanded="false" />
             <element signature="method#cooldown#0;class#FemalePlayer#0" expanded="false" />
-            <marker date="1502469274504" expanded="true" signature="3213:3219" ph="{...}" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3045#3046#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/MaleAnimator.java">
+    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="76" column="90" lean-forward="false" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
-          <folding />
+        <state relative-caret-position="269">
+          <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+          <folding>
+            <element signature="method#addIteam#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#addPlayer#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#addBackGround#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#setupInput#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#render#0;class#GameWindow#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

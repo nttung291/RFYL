@@ -112,7 +112,7 @@ public class GameWindow extends JFrame {
     }
 
     private void setupWindow(){
-        this.setSize(1600,800);
+        this.setSize(1500,800);
         this.setResizable(false);
         this.setTitle("Run for your life");
         this.addWindowListener(new WindowAdapter() {
