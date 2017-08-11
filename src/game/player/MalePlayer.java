@@ -8,6 +8,7 @@ import game.items.Condom;
 import game.items.Lava;
 import inputs.InputManager;
 
+import static game.GameWindow.checkLevel;
 import static game.player.FemalePlayer.heart;
 
 
@@ -30,30 +31,35 @@ public class MalePlayer extends Player{
         instanceMale = this;
         maleAnimator = new MaleAnimator();
         this.renderer = maleAnimator;
-        waitting = new FrameCounter(100);
+        waitting = new FrameCounter(80);
     }
+    public void malemove(){
+        this.velocity.y += gravity;
+        this.velocity.x = 0;
+        if (InputManager.instance.aPressed){
+            this.velocity.x = -v;
+        }
 
+        if (InputManager.instance.dPressed)
+            this.velocity.x = v;
+        if (InputManager.instance.wPressed) {
+            if (Physics.bodyInRect(position.add(0, 1), boxCollider.width, boxCollider.height, Lava.class) != null) {
+                this.velocity.y -= 28;
+            }
+        }
+        moveHorizontal();
+        position.x += velocity.x;
+        moveVertical();
+        position.y += velocity.y;
+    }
     @Override
     public void move() {
-
-        if (waitting.run()){
-            this.velocity.y += gravity;
-            this.velocity.x = 0;
-            if (InputManager.instance.aPressed){
-                this.velocity.x = -v;
+        if (checkLevel == 1){
+            if (waitting.run()){
+                malemove();
             }
-
-            if (InputManager.instance.dPressed)
-                this.velocity.x = v;
-            if (InputManager.instance.wPressed) {
-                if (Physics.bodyInRect(position.add(0, 1), boxCollider.width, boxCollider.height, Lava.class) != null) {
-                    this.velocity.y -= 28;
-                }
-            }
-            moveHorizontal();
-            position.x += velocity.x;
-            moveVertical();
-            position.y += velocity.y;
+        }else{
+            malemove();
         }
     }
 
@@ -62,7 +68,7 @@ public class MalePlayer extends Player{
     }
 
     private void castPoop() {
-        if (InputManager.instance.mPressed){
+        if (InputManager.instance.gPressed){
             if (!bulletDisable && bullet > 0){
                 if (this.position.x - FemalePlayer.instanceFemale.position.x > 0){
                     ThrowPoop PoopBullet = new ThrowPoop(new Vector2D(-20,0));

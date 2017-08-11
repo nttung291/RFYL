@@ -1,5 +1,6 @@
 package game.player;
 
+import game.GameWindow;
 import game.Utils;
 import game.bases.Vector2D;
 import game.bases.renderer.Animation;
@@ -119,7 +120,11 @@ public class MaleAnimator implements Renderer {
                 Utils.loadImage("assets/images/maleplayer/fallingright/img14.png"),
                 Utils.loadImage("assets/images/maleplayer/fallingright/img15.png")
         );
-        currenAnimation = standrightAnimation;
+        if (GameWindow.checkLevel == 1){
+            currenAnimation = standrightAnimation;
+        }else{
+            currenAnimation = standleftAnimation;
+        }
     }
     public int check = 0;
     public void run(Player player) {
@@ -130,7 +135,7 @@ public class MaleAnimator implements Renderer {
                 currenAnimation = fallingright;
             }
         }
-        else if(InputManager.instance.mPressed) {
+        else if(InputManager.instance.gPressed) {
             if (MalePlayer.instanceMale.position.x - FemalePlayer.instanceFemale.position.x > 0) {
                 currenAnimation = throwshitleft;
             }else{

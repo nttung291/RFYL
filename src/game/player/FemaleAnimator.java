@@ -133,7 +133,7 @@ public class FemaleAnimator implements Renderer {
                 currenAnimation = fallingright;
             }
         }
-        else if(InputManager.instance.gPressed) {
+        else if(InputManager.instance.mPressed) {
             if ( FemalePlayer.instanceFemale.position.x-MalePlayer.instanceMale.position.x > 0) {
                 currenAnimation = throwshitleft;
             }else{

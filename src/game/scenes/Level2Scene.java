@@ -11,6 +11,8 @@ import game.player.MalePlayer;
 import game.player.Player;
 import game.viewports.ViewPort;
 
+import static game.GameWindow.checkLevel;
+
 /**
  * Created by Nttung PC on 8/12/2017.
  */
@@ -25,6 +27,7 @@ public class Level2Scene extends Scene {
         addIteam();
         addPlayer();
         addViewPorts();
+        checkLevel = 2;
     }
 
     public void addBackGround(){
@@ -52,7 +55,7 @@ public class Level2Scene extends Scene {
 
         GameWindow.mainViewPort = new ViewPort();
         GameWindow. mainViewPort.getCamera().followedObject = new GameObject();
-        GameWindow.mainViewPort.getCamera().getOffset().set(200, 0);
+        GameWindow.mainViewPort.getCamera().getOffset().set(600, 0);
 
 
         GameObject.add(GameWindow.maleViewPort.getCamera());
@@ -67,22 +70,19 @@ public class Level2Scene extends Scene {
                 int vt = item[i][j];
                 switch (vt){
                     case 1:
-                        GameObject.add(new Lava().setPosition(32*j,32*i-15));
-                        break;
-                    case 3:
-                        GameObject.add(new Banana().setPosition(32*j,32*i-15));
-                        break;
-                    case 6:
-                        GameObject.add(new Poop().setPosition(32*j,32*i-15));
+                        GameObject.add(new Lava().setPosition(32*j,32*i+10));
                         break;
                     case 4:
-                        GameObject.add(new Condom().setPosition(32*j,32*i-15));
-                        break;
-                    case 2:
-                        GameObject.add(new Heart().setPosition(32*j,32*i-15));
+                        GameObject.add(new Banana().setPosition(32*j,32*i+10));
                         break;
                     case 5:
-                        GameObject.add(new Drug().setPosition(32*j,32*i-15));
+                        GameObject.add(new Poop().setPosition(32*j,32*i+10));
+                        break;
+                    case 6:
+                        GameObject.add(new Condom().setPosition(32*j,32*i+10));
+                        break;
+                    case 3:
+                        GameObject.add(new Drug().setPosition(32*j,32*i+10));
                         break;
                     default: break;
                 }
@@ -93,7 +93,7 @@ public class Level2Scene extends Scene {
     private void addPlayer() {
         malePlayer = new Player().createMalePlayer();
         femalePlayer = Player.createFemalePlayer();
-        GameObject.add(malePlayer.setPosition(6000, 670));
-        GameObject.add(femalePlayer.setPosition(6000, 670));
+        GameObject.add(malePlayer.setPosition(5400, 670));
+        GameObject.add(femalePlayer.setPosition(5600, 670));
     }
 }

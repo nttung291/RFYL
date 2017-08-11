@@ -9,6 +9,7 @@ import game.items.Lava;
 import inputs.InputManager;
 import tklibs.Mathx;
 
+import static game.GameWindow.checkLevel;
 import static game.player.MalePlayer.condom;
 
 /**
@@ -22,6 +23,7 @@ public class FemalePlayer extends Player{
     public static Player instanceFemale;
     FemaleAnimator femaleAnimator;
     GirlAnimator girlAnimator;
+    FrameCounter waitting;
 
 
     public FemalePlayer() {
@@ -30,17 +32,16 @@ public class FemalePlayer extends Player{
         instanceFemale = this;
         femaleAnimator = new FemaleAnimator();
         girlAnimator = new GirlAnimator();
+        waitting = new FrameCounter(80);
         this.renderer = girlAnimator;
     }
 
-    @Override
-    public void move() {
+    public void femalemove(){
         this.velocity.y += gravity;
         this.velocity.x = 0;
         if (InputManager.instance.leftPressed){
             this.velocity.x = -v;
         }
-
         if (InputManager.instance.rightPressed)
             this.velocity.x = v;
         if (InputManager.instance.upPressed) {
@@ -52,6 +53,17 @@ public class FemalePlayer extends Player{
         position.x += velocity.x;
         moveVertical();
         position.y += velocity.y;
+    }
+
+    @Override
+    public void move() {
+        if (checkLevel == 2){
+            if (waitting.run()){
+                femalemove();
+            }
+        }else{
+            femalemove();
+        }
     }
 
     public void eatHeart(){
@@ -71,7 +83,7 @@ public class FemalePlayer extends Player{
     }
 
     private void castPoop() {
-        if (InputManager.instance.gPressed){
+        if (InputManager.instance.mPressed){
             if (!bulletDisable && bullet > 0){
                 if (this.position.x - MalePlayer.instanceMale.position.x > 0){
                     ThrowPoop PoopBullet = new ThrowPoop(new Vector2D(-20,0));

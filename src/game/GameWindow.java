@@ -35,6 +35,7 @@ public class GameWindow extends JFrame {
     public static ViewPort mainViewPort;
 
     Scene startScene;
+    public static int checkLevel = 0;
 
 
     private BufferedImage leftBufferImage;
@@ -133,17 +134,28 @@ public class GameWindow extends JFrame {
             }
         }
     }
-
+    boolean nextscene;
+    public void nextLeve2(){
+        if (MalePlayer.hitFemale() || FemalePlayer.hitMale()){
+            SceneManager.instance.requestChangeScene(new Level2Scene());
+            nextscene = true;
+        }
+        else nextscene = false;
+    }
     private void run() {
         GameObject.runAll();
         SceneManager.instance.changeSceneIfNeeded();
+        if (nextscene){
+           nextLeve2();
+        }
+        nextLeve2();
     }
 
     private void render() {
         backBufferGraphic2D.setColor(Color.BLACK);
         backBufferGraphic2D.fillRect(0, 0, this.getWidth(), this.getHeight());
         distance = Math.abs(maleViewPort.getCamera().screenPosition.x - femaleViewPort.getCamera().screenPosition.x);
-        if (distance > 750){
+        if (distance > 500){
             maleViewPort.render(leftG2d, GameObject.getGameObjects());
             femaleViewPort.render(rightG2d, GameObject.getGameObjects());
             backBufferGraphic2D.drawImage(leftBufferImage, 0, 0, null);
