@@ -182,6 +182,9 @@ public class GameWindow extends JFrame {
                 run();
                 render();
             }
+            if (MalePlayer.hitFemale() || FemalePlayer.hitMale()){
+                break;
+            }
         }
     }
 

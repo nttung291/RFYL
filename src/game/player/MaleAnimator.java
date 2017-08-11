@@ -28,30 +28,30 @@ public class MaleAnimator implements Renderer {
 
     public MaleAnimator() {
         leftAnimation = new Animation(1,true,
-                Utils.loadImage("assets/images/maleplayer/runleft/img1.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runleft/img2.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runleft/img3.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runleft/img4.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runleft/img5.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runleft/img6.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runleft/img7.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runleft/img8.PNG")
+                Utils.loadImage("assets/images/maleplayer/runleft/img1.png"),
+                Utils.loadImage("assets/images/maleplayer/runleft/img2.png"),
+                Utils.loadImage("assets/images/maleplayer/runleft/img3.png"),
+                Utils.loadImage("assets/images/maleplayer/runleft/img4.png"),
+                Utils.loadImage("assets/images/maleplayer/runleft/img5.png"),
+                Utils.loadImage("assets/images/maleplayer/runleft/img6.png"),
+                Utils.loadImage("assets/images/maleplayer/runleft/img7.png"),
+                Utils.loadImage("assets/images/maleplayer/runleft/img8.png")
 
         );
 
         rightAnimation = new Animation(1,true,
-                Utils.loadImage("assets/images/maleplayer/runright/img1.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runright/img2.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runright/img3.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runright/img4.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runright/img5.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runright/img6.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runright/img7.PNG"),
-                Utils.loadImage("assets/images/maleplayer/runright/img8.PNG")
+                Utils.loadImage("assets/images/maleplayer/runright/img1.png"),
+                Utils.loadImage("assets/images/maleplayer/runright/img2.png"),
+                Utils.loadImage("assets/images/maleplayer/runright/img3.png"),
+                Utils.loadImage("assets/images/maleplayer/runright/img4.png"),
+                Utils.loadImage("assets/images/maleplayer/runright/img5.png"),
+                Utils.loadImage("assets/images/maleplayer/runright/img6.png"),
+                Utils.loadImage("assets/images/maleplayer/runright/img7.png"),
+                Utils.loadImage("assets/images/maleplayer/runright/img8.png")
                 );
         standleftAnimation = new Animation(10,true,
-                Utils.loadImage("assets/images/maleplayer/standleft/img1.PNG"),
-                Utils.loadImage("assets/images/maleplayer/standleft/img2.PNG")
+                Utils.loadImage("assets/images/maleplayer/standleft/img1.png"),
+                Utils.loadImage("assets/images/maleplayer/standleft/img2.png")
         );
 
         standrightAnimation = new Animation(10,true,
@@ -64,17 +64,17 @@ public class MaleAnimator implements Renderer {
         );
 
         jumpLeftAnimation = new Animation(
-                Utils.loadImage("assets/images/maleplayer/jumpleft/img4.PNG")
+                Utils.loadImage("assets/images/maleplayer/jumpleft/img4.png")
         );
 
         throwshitleft = new Animation(1,true,
-                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img1.PNG"),
-                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img2.PNG"),
-                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img3.PNG"),
-                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img4.PNG"),
-                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img5.PNG"),
-                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img6.PNG"),
-                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img7.PNG")
+                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img1.png"),
+                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img2.png"),
+                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img3.png"),
+                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img4.png"),
+                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img5.png"),
+                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img6.png"),
+                Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img7.png")
         );
 
         throwshitright = new Animation(1,true,

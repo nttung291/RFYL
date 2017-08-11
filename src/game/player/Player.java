@@ -14,6 +14,8 @@ import game.items.Drug;
 import game.items.Lava;
 import game.items.Poop;
 
+import static game.player.MalePlayer.condom;
+
 /**
  * Created by Nttung PC on 8/3/2017.
  */
@@ -24,7 +26,6 @@ public class Player extends GameObject implements Physicbody {
     public int bullet;
     public Vector2D velocity;
     public float gravity = 2f;
-    public int life;
 
     FrameCounter slowPoopBullet;
     FrameCounter frameCounterBanana;
@@ -34,11 +35,16 @@ public class Player extends GameObject implements Physicbody {
 
     public Contraints constraints;
 
+    public static BoxCollider maleColider;
+    public static BoxCollider femaleColider;
+
     public Player() {
         super();
         v=10;
         constraints = new Contraints(0,670,0,6400);
-        boxCollider = new BoxCollider(60,60);
+        boxCollider = new BoxCollider(30,60);
+        maleColider = new BoxCollider(30,60);
+        femaleColider = new BoxCollider(30,60);
         slowPoopBullet = new FrameCounter(60);
         frameCounterBanana = new FrameCounter(30);
         frameCounterDrug = new FrameCounter(30);
@@ -91,7 +97,6 @@ public class Player extends GameObject implements Physicbody {
             }
         }
     }
-
 
     public void eatDrug() {
         Drug eatDrug = Physics.bodyInRect(this.boxCollider,Drug.class);

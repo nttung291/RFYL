@@ -9,12 +9,14 @@ import game.items.Lava;
 import inputs.InputManager;
 import tklibs.Mathx;
 
+import static game.player.MalePlayer.condom;
+
 /**
  * Created by Nttung PC on 8/3/2017.
  */
 public class FemalePlayer extends Player{
 
-    public static int heart=5;
+    public static int heart=0;
     boolean bulletDisable;
     FrameCounter cooldownBullet;
     public static Player instanceFemale;
@@ -54,9 +56,17 @@ public class FemalePlayer extends Player{
     public void eatHeart(){
         Heart eatHeart = Physics.bodyInRect(this.boxCollider, Heart.class);
         if (eatHeart != null && eatHeart.isActive){
-            heart--;
+            heart++;
             eatHeart.getEat();
         }
+    }
+
+    public static boolean hitMale(){
+        MalePlayer malePlayer = Physics.bodyInRect(Player.femaleColider,MalePlayer.class);
+        if (malePlayer != null && malePlayer.isActive && condom < 5){
+            return true;
+        }
+        return false;
     }
 
     private void castPoop() {
@@ -99,5 +109,6 @@ public class FemalePlayer extends Player{
         eatHeart();
         castPoop();
         animate();
+        Player.femaleColider = this.boxCollider;
     }
 }

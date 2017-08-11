@@ -8,6 +8,8 @@ import game.items.Condom;
 import game.items.Lava;
 import inputs.InputManager;
 
+import static game.player.FemalePlayer.heart;
+
 
 /**
  * Created by Nttung PC on 8/3/2017.
@@ -16,9 +18,10 @@ public class MalePlayer extends Player{
 
     boolean bulletDisable;
     FrameCounter cooldownBullet;
-    public int condom=10;
+    public static int condom=0;
     public static Player instanceMale;
     MaleAnimator maleAnimator;
+
 
     public MalePlayer() {
         super();
@@ -84,10 +87,18 @@ public class MalePlayer extends Player{
         }
     }
 
+    public static boolean hitFemale(){
+        FemalePlayer femalePlayer = Physics.bodyInRect(Player.maleColider,FemalePlayer.class);
+        if (femalePlayer != null && femalePlayer.isActive && heart < 5){
+            return true;
+        }
+        return false;
+    }
+
     public void eatCondom(){
         Condom eatCondom = Physics.bodyInRect(this.boxCollider,Condom.class);
         if (eatCondom != null && eatCondom.isActive){
-            condom--;
+            condom++;
             eatCondom.getEat();
         }
     }
@@ -99,5 +110,6 @@ public class MalePlayer extends Player{
         castPoop();
         animate();
         instanceMale = this;
+        Player.maleColider = this.boxCollider;
     }
 }

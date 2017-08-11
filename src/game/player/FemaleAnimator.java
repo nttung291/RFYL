@@ -62,7 +62,7 @@ public class FemaleAnimator implements Renderer {
         );
 
         jumpLeftAnimation = new Animation(
-                Utils.loadImage("assets/images/femaleplayer/jumpleft/img4.PNG")
+                Utils.loadImage("assets/images/femaleplayer/jumpleft/img4.png")
         );
 
         throwshitleft = new Animation(1,true,
