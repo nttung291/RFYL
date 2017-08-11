@@ -21,13 +21,15 @@ public class FemalePlayer extends Player{
     FrameCounter cooldownBullet;
     public static Player instanceFemale;
     FemaleAnimator femaleAnimator;
+    GirlAnimator girlAnimator;
 
     public FemalePlayer() {
         super();
         this.cooldownBullet = new FrameCounter(5);
         instanceFemale = this;
         femaleAnimator = new FemaleAnimator();
-        this.renderer = femaleAnimator;
+        girlAnimator = new GirlAnimator();
+        this.renderer = girlAnimator;
     }
 
     @Override
@@ -99,7 +101,7 @@ public class FemalePlayer extends Player{
     }
 
     private void animate() {
-        femaleAnimator.run(this);
+       girlAnimator.run(this);
     }
 
     @Override
