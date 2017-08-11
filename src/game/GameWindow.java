@@ -5,10 +5,7 @@ package game;
 import game.bases.GameObject;
 
 import game.player.Player;
-import game.scenes.Level1Scene;
-import game.scenes.MenuScene;
-import game.scenes.Scene;
-import game.scenes.SceneManager;
+import game.scenes.*;
 import game.viewports.ViewPort;
 import inputs.InputManager;
 import game.player.FemalePlayer;
@@ -133,9 +130,6 @@ public class GameWindow extends JFrame {
                 lastUpdateTime = curentTime;
                 run();
                 render();
-            }
-            if (MalePlayer.hitFemale() || FemalePlayer.hitMale()){
-                break;
             }
         }
     }

@@ -18,7 +18,6 @@ public class SceneManager {
     }
 
     public void changeSceneIfNeeded(){
-
         if (nextScene != null){
             if (currentScene != null){
                 currentScene.deInit();

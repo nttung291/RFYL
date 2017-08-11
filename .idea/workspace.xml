@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$2.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Settings.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Settings.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/GameWindow.java" afterPath="$PROJECT_DIR$/src/game/GameWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/MalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" afterPath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/SceneManager.java" afterPath="$PROJECT_DIR$/src/game/scenes/SceneManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Settings.java" afterPath="$PROJECT_DIR$/src/game/scenes/Settings.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="MalePlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="918">
               <caret line="114" column="28" lean-forward="false" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,14 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="154" column="71" lean-forward="true" selection-start-line="154" selection-start-column="71" selection-end-line="154" selection-end-column="71" />
+            <state relative-caret-position="581">
+              <caret line="134" column="5" lean-forward="false" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/scenes/SceneManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,8 +83,8 @@
       <file leaf-file-name="MenuScene.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scene.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scene.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/scenes/Scene.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -89,6 +100,40 @@
               <folding>
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/scenes/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level1Scene.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/scenes/Level1Scene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1491">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level2Scene.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/scenes/Level2Scene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="96" column="52" lean-forward="false" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/player/FemaleMove.java" />
-        <option value="$PROJECT_DIR$/src/game/items/lava.java" />
         <option value="$PROJECT_DIR$/src/game/items/banana.java" />
         <option value="$PROJECT_DIR$/src/game/items/heart.java" />
         <option value="$PROJECT_DIR$/src/game/items/Gson.java" />
@@ -166,9 +209,11 @@
         <option value="$PROJECT_DIR$/src/inputs/InputManager.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/Scene.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/MenuScene.java" />
-        <option value="$PROJECT_DIR$/src/game/scenes/SceneManager.java" />
         <option value="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
         <option value="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
+        <option value="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" />
+        <option value="$PROJECT_DIR$/src/game/scenes/Settings.java" />
+        <option value="$PROJECT_DIR$/src/game/scenes/SceneManager.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" />
         <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
       </list>
@@ -1866,7 +1911,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502477898171</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="core game 5">
+      <created>1502481468619</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502481468619</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1887,7 +1939,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1964,7 +2016,8 @@
     <MESSAGE value="core game" />
     <MESSAGE value="core game 1" />
     <MESSAGE value="intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="intro" />
+    <MESSAGE value="core game 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="core game 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1985,7 +2038,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/awt/Component.java" />
     <entry file="file://$PROJECT_DIR$/assets/images/items/lava.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2212,13 +2264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inputs/InputManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -2230,17 +2275,6 @@
             <element signature="e#836#837#0" expanded="true" />
             <element signature="e#866#867#0" expanded="true" />
             <element signature="e#916#917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/SceneManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2260,16 +2294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/player/FemalePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -2279,41 +2303,6 @@
             <marker date="1502480377791" expanded="false" signature="2809:2986" ph="{...}" />
             <marker date="1502480377791" expanded="false" signature="3014:3024" ph=" { " />
             <marker date="1502480377791" expanded="false" signature="3047:3053" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="114" column="28" lean-forward="false" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#move#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#castPoop#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#hitFemale#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="154" column="71" lean-forward="true" selection-start-line="154" selection-start-column="71" selection-end-line="154" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/Level1Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="49" column="80" lean-forward="false" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2333,6 +2322,77 @@
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/SceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="114" column="28" lean-forward="false" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#move#0;class#MalePlayer#0" expanded="false" />
+            <element signature="method#castPoop#0;class#MalePlayer#0" expanded="false" />
+            <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
+            <element signature="method#hitFemale#0;class#MalePlayer#0" expanded="false" />
+            <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/Level2Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="96" column="52" lean-forward="false" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/Level1Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="134" column="5" lean-forward="false" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
