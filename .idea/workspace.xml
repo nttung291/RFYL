@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/fallingright/img6 - Copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/maleplayer/fallingleft/img8 - Copy.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -679,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502470732605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="core game 3">
+      <created>1502471392216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1502471392216</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -755,7 +760,8 @@
     <MESSAGE value="core game" />
     <MESSAGE value="core game 1" />
     <MESSAGE value="core game 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="core game 2" />
+    <MESSAGE value="core game 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="core game 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
