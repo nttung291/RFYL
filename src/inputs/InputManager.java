@@ -71,10 +71,6 @@ public class InputManager {
                 break;
             default: break;
         }
-
-        for (InputListener inputListener : inputListeners){
-            inputListener.onKeyPressed(keyEvent.getKeyCode());
-        }
     }
 
     public void keyReleased(KeyEvent keyEvent) {

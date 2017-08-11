@@ -7,6 +7,7 @@ import game.bases.GameObject;
  */
 public abstract class Scene {
     public abstract void init();
+
     public void deInit(){
         GameObject.clear();
     }

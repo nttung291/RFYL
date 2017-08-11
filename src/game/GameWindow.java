@@ -1,18 +1,17 @@
 package game;
 
 
-import com.google.gson.Gson;
-import game.bases.Contraints;
+
 import game.bases.GameObject;
-import game.bases.Vector2D;
-import game.gson.MapJson;
-import game.items.*;
-import game.scenes.BackGround;
+
+import game.player.Player;
+import game.scenes.MenuScene;
+import game.scenes.Scene;
+import game.scenes.SceneManager;
 import game.viewports.ViewPort;
 import inputs.InputManager;
 import game.player.FemalePlayer;
 import game.player.MalePlayer;
-import game.player.Player;
 
 import javax.swing.*;
 import java.awt.*;
@@ -31,8 +30,6 @@ public class GameWindow extends JFrame {
     BufferedImage backBufferImage;
     Graphics2D backBufferGraphic2D;
 
-    private Player malePlayer;
-    private Player femalePlayer;
     InputManager inputManager = InputManager.instance;
     float distance;
 
@@ -40,7 +37,8 @@ public class GameWindow extends JFrame {
     ViewPort femaleViewPort;
     ViewPort mainViewPort;
 
-    MapJson readJson = new MapJson();
+    Scene startScene;
+
 
     private BufferedImage leftBufferImage;
     private BufferedImage rightBufferImage;
@@ -50,65 +48,18 @@ public class GameWindow extends JFrame {
     public GameWindow() {
         setupWindow();
         setupInput();
-        addBackGround();
-        readGson();
-        addPlayer();
-        addIteam();
+        setupStartScene();
         addViewPorts();
         setupBackBuffer();
+        MalePlayer.instanceMale = new Player();
+        FemalePlayer.instanceFemale = new Player();
         this.setVisible(true);
     }
 
-    public void readGson(){
-        Gson gson = new Gson();
-        readJson = gson.fromJson(Utils.loadFileContent("map.json"),MapJson.class);
-    }
-
-    public void addIteam(){
-       int[][] item = Utils.convert_1D_To_2D(readJson.layers.data,25,200);
-       for (int i = 0; i < 25; i++){
-           for (int j = 0; j < 200; j++){
-               int vt = item[i][j];
-               switch (vt){
-                   case 1:
-                       GameObject.add(new Lava().setPosition(32*j,32*i-15));
-                       break;
-                   case 3:
-                       GameObject.add(new Banana().setPosition(32*j,32*i-15));
-                       break;
-                   case 6:
-                       GameObject.add(new Poop().setPosition(32*j,32*i-15));
-                       break;
-                   case 4:
-                       GameObject.add(new Condom().setPosition(32*j,32*i-15));
-                       break;
-                   case 2:
-                       GameObject.add(new Heart().setPosition(32*j,32*i-15));
-                       break;
-                   case 5:
-                       GameObject.add(new Drug().setPosition(32*j,32*i-15));
-                       break;
-                   default: break;
-               }
-           }
-       }
-    }
-
-    private void addPlayer() {
-        malePlayer = new Player().createMalePlayer();
-        femalePlayer = Player.createFemalePlayer();
-        GameObject.add(malePlayer.setPosition(20, 670));
-        GameObject.add(femalePlayer.setPosition(100, 670));
-    }
-
-    public void addBackGround(){
-        BackGround backGround = new BackGround();
-        GameObject.add(backGround);
-        Lava lavaGround = new Lava();
-        lavaGround.renderer = null;
-        lavaGround.getBoxCollier().width = 20000;
-        lavaGround.setPosition(0,718);
-        GameObject.add(lavaGround);
+    private void setupStartScene() {
+        startScene = new MenuScene();
+        startScene.init();
+        SceneManager.instance.requestChangeScene(startScene);
     }
 
     private void setupWindow(){
@@ -156,11 +107,11 @@ public class GameWindow extends JFrame {
 
     private void addViewPorts() {
             maleViewPort = new ViewPort();
-            maleViewPort.getCamera().follow(malePlayer);
+            maleViewPort.getCamera().follow(MalePlayer.instanceMale);
             maleViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
 
             femaleViewPort = new ViewPort();
-            femaleViewPort.getCamera().follow(femalePlayer);
+            femaleViewPort.getCamera().follow(FemalePlayer.instanceFemale);
             femaleViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
 
             mainViewPort = new ViewPort();
@@ -190,6 +141,7 @@ public class GameWindow extends JFrame {
 
     private void run() {
         GameObject.runAll();
+        SceneManager.instance.changeSceneIfNeeded();
     }
 
     private void render() {
@@ -205,7 +157,7 @@ public class GameWindow extends JFrame {
             backBufferGraphic2D.drawLine(getWidth()/2,0,getWidth()/2,800);
         }else{
             mainViewPort.render(backBufferGraphic2D,GameObject.getGameObjects());
-            mainViewPort.getCamera().followedObject.position.x = (malePlayer.position.x + femalePlayer.position.x)/2;
+            mainViewPort.getCamera().followedObject.position.x = (MalePlayer.instanceMale.position.x + FemalePlayer.instanceFemale.position.x)/2;
             backBufferGraphic2D.drawImage(backBufferImage,0,0,null);
         }
         Graphics2D graphics2D = (Graphics2D) this.getGraphics();
