@@ -6,15 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="core game 8">
+    <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/cameras/Camera.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/cameras/Camera.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Level2Scene.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Level2Scene.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/cameras/Camera.java" afterPath="$PROJECT_DIR$/src/game/cameras/Camera.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/MalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" afterPath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" afterPath="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1969,7 +1964,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502487668308</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="core game 9">
+      <created>1502490513440</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1502490513440</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2071,7 +2073,8 @@
     <MESSAGE value="core game 6" />
     <MESSAGE value="core game 7" />
     <MESSAGE value="core game 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="core game 8" />
+    <MESSAGE value="core game 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="core game 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
