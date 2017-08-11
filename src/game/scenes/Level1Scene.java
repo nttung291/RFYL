@@ -1,17 +1,22 @@
 package game.scenes;
 
 import com.google.gson.Gson;
+import game.GameWindow;
 import game.Utils;
 import game.bases.GameObject;
 import game.gson.MapJson;
 import game.items.*;
 import game.player.FemalePlayer;
+import game.player.MalePlayer;
 import game.player.Player;
+import game.viewports.ViewPort;
 
 /**
  * Created by SNOW on 8/12/2017.
  */
 public class Level1Scene extends Scene {
+    public Player malePlayer;
+    public Player femalePlayer;
     MapJson readJson = new MapJson();
     @Override
     public void init() {
@@ -19,6 +24,7 @@ public class Level1Scene extends Scene {
         readGson();
         addIteam();
         addPlayer();
+        addViewPorts();
     }
 
     public void addBackGround(){
@@ -34,6 +40,24 @@ public class Level1Scene extends Scene {
     public void readGson(){
         Gson gson = new Gson();
         readJson = gson.fromJson(Utils.loadFileContent("map.json"),MapJson.class);
+    }
+
+    private void addViewPorts() {
+        GameWindow.maleViewPort.getCamera().follow(MalePlayer.instanceMale);
+        GameWindow.maleViewPort.getCamera().getOffset().set(200, 0);
+
+        GameWindow.femaleViewPort = new ViewPort();
+        GameWindow.femaleViewPort.getCamera().follow(FemalePlayer.instanceFemale);
+        GameWindow.femaleViewPort.getCamera().getOffset().set(200, 0);
+
+        GameWindow.mainViewPort = new ViewPort();
+        GameWindow. mainViewPort.getCamera().followedObject = new GameObject();
+        GameWindow.mainViewPort.getCamera().getOffset().set(200, 0);
+
+
+        GameObject.add(GameWindow.maleViewPort.getCamera());
+        GameObject.add(GameWindow.femaleViewPort.getCamera());
+        GameObject.add(GameWindow.mainViewPort.getCamera());
     }
 
     public void addIteam(){
@@ -67,9 +91,6 @@ public class Level1Scene extends Scene {
     }
 
     private void addPlayer() {
-
-        Player malePlayer;
-        Player femalePlayer;
         malePlayer = new Player().createMalePlayer();
         femalePlayer = Player.createFemalePlayer();
         GameObject.add(malePlayer.setPosition(20, 670));

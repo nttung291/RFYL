@@ -23,6 +23,7 @@ public class FemalePlayer extends Player{
     FemaleAnimator femaleAnimator;
     GirlAnimator girlAnimator;
 
+
     public FemalePlayer() {
         super();
         this.cooldownBullet = new FrameCounter(5);
@@ -36,23 +37,21 @@ public class FemalePlayer extends Player{
     public void move() {
         this.velocity.y += gravity;
         this.velocity.x = 0;
-        if (InputManager.instance.aPressed){
+        if (InputManager.instance.leftPressed){
             this.velocity.x = -v;
         }
 
-        if (InputManager.instance.dPressed)
+        if (InputManager.instance.rightPressed)
             this.velocity.x = v;
-        if (InputManager.instance.wPressed) {
+        if (InputManager.instance.upPressed) {
             if (Physics.bodyInRect(position.add(0, 1), boxCollider.width, boxCollider.height, Lava.class) != null) {
                 this.velocity.y -= 28;
             }
         }
         moveHorizontal();
         position.x += velocity.x;
-
         moveVertical();
         position.y += velocity.y;
-
     }
 
     public void eatHeart(){

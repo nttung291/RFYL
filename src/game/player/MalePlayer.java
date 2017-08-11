@@ -21,6 +21,7 @@ public class MalePlayer extends Player{
     public static int condom=0;
     public static Player instanceMale;
     MaleAnimator maleAnimator;
+    FrameCounter waitting;
 
 
     public MalePlayer() {
@@ -29,29 +30,31 @@ public class MalePlayer extends Player{
         instanceMale = this;
         maleAnimator = new MaleAnimator();
         this.renderer = maleAnimator;
+        waitting = new FrameCounter(100);
     }
 
     @Override
     public void move() {
-        this.velocity.y += gravity;
-        this.velocity.x = 0;
-        if (InputManager.instance.leftPressed){
-            this.velocity.x = -v;
-        }
 
-        if (InputManager.instance.rightPressed)
-            this.velocity.x = v;
-        if (InputManager.instance.upPressed) {
-            if (Physics.bodyInRect(position.add(0, 1), boxCollider.width, boxCollider.height, Lava.class) != null) {
-                this.velocity.y -= 28;
+        if (waitting.run()){
+            this.velocity.y += gravity;
+            this.velocity.x = 0;
+            if (InputManager.instance.aPressed){
+                this.velocity.x = -v;
             }
-        }
-        moveHorizontal();
-        position.x += velocity.x;
 
-        moveVertical();
-        position.y += velocity.y;
-//        this.constraints.make(position);
+            if (InputManager.instance.dPressed)
+                this.velocity.x = v;
+            if (InputManager.instance.wPressed) {
+                if (Physics.bodyInRect(position.add(0, 1), boxCollider.width, boxCollider.height, Lava.class) != null) {
+                    this.velocity.y -= 28;
+                }
+            }
+            moveHorizontal();
+            position.x += velocity.x;
+            moveVertical();
+            position.y += velocity.y;
+        }
     }
 
     private void animate() {

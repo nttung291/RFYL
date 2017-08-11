@@ -5,6 +5,7 @@ package game;
 import game.bases.GameObject;
 
 import game.player.Player;
+import game.scenes.Level1Scene;
 import game.scenes.MenuScene;
 import game.scenes.Scene;
 import game.scenes.SceneManager;
@@ -26,16 +27,15 @@ import java.awt.image.BufferedImage;
  * Created by Nttung PC on 8/1/2017.
  */
 public class GameWindow extends JFrame {
-
     BufferedImage backBufferImage;
     Graphics2D backBufferGraphic2D;
 
     InputManager inputManager = InputManager.instance;
     float distance;
 
-    ViewPort maleViewPort;
-    ViewPort femaleViewPort;
-    ViewPort mainViewPort;
+    public static ViewPort maleViewPort;
+    public static ViewPort femaleViewPort;
+    public static ViewPort mainViewPort;
 
     Scene startScene;
 
@@ -47,12 +47,12 @@ public class GameWindow extends JFrame {
 
     public GameWindow() {
         setupWindow();
+        MalePlayer.instanceMale = new Player();
+        FemalePlayer.instanceFemale = new Player();
         setupInput();
         setupStartScene();
         addViewPorts();
         setupBackBuffer();
-        MalePlayer.instanceMale = new Player();
-        FemalePlayer.instanceFemale = new Player();
         this.setVisible(true);
     }
 
@@ -61,6 +61,7 @@ public class GameWindow extends JFrame {
         startScene.init();
         SceneManager.instance.requestChangeScene(startScene);
     }
+
 
     private void setupWindow(){
         this.setSize(1500,800);
@@ -147,7 +148,6 @@ public class GameWindow extends JFrame {
     private void render() {
         backBufferGraphic2D.setColor(Color.BLACK);
         backBufferGraphic2D.fillRect(0, 0, this.getWidth(), this.getHeight());
-
         distance = Math.abs(maleViewPort.getCamera().screenPosition.x - femaleViewPort.getCamera().screenPosition.x);
         if (distance > 750){
             maleViewPort.render(leftG2d, GameObject.getGameObjects());
