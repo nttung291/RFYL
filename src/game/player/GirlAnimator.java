@@ -1,5 +1,6 @@
 package game.player;
 
+import game.GameWindow;
 import game.Utils;
 import game.bases.Vector2D;
 import game.bases.renderer.Animation;
@@ -96,7 +97,11 @@ public class GirlAnimator implements Renderer {
                 Utils.loadImage("assets/images/girlplayer/fallingright/img4.png")
 
         );
-        currenAnimation = standrightAnimation;
+        if (GameWindow.checkLevel == 1){
+            currenAnimation = standrightAnimation;
+        }else{
+            currenAnimation = standleftAnimation;
+        }
     }
     public int check = 0;
 

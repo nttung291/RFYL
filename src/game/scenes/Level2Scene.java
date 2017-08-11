@@ -47,11 +47,11 @@ public class Level2Scene extends Scene {
 
     private void addViewPorts() {
         GameWindow.maleViewPort.getCamera().follow(MalePlayer.instanceMale);
-        GameWindow.maleViewPort.getCamera().getOffset().set(200, 0);
+        GameWindow.maleViewPort.getCamera().getOffset().set(400, 0);
 
         GameWindow.femaleViewPort = new ViewPort();
         GameWindow.femaleViewPort.getCamera().follow(FemalePlayer.instanceFemale);
-        GameWindow.femaleViewPort.getCamera().getOffset().set(200, 0);
+        GameWindow.femaleViewPort.getCamera().getOffset().set(400, 0);
 
         GameWindow.mainViewPort = new ViewPort();
         GameWindow. mainViewPort.getCamera().followedObject = new GameObject();
