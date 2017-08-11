@@ -37,7 +37,7 @@ public class Animation implements Renderer {
 
     public Animation(BufferedImage... imageArr)
     {
-        this(3, true, imageArr);
+        this(1, true, imageArr);
     }
 
 

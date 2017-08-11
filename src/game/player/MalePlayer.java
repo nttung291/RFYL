@@ -8,6 +8,7 @@ import game.items.Condom;
 import game.items.Lava;
 import inputs.InputManager;
 
+
 /**
  * Created by Nttung PC on 8/3/2017.
  */
@@ -17,12 +18,13 @@ public class MalePlayer extends Player{
     FrameCounter cooldownBullet;
     public int condom=10;
     public static Player instanceMale;
+    MaleAnimator maleAnimator;
 
     public MalePlayer() {
         super();
         this.cooldownBullet = new FrameCounter(5);
         instanceMale = this;
-        maleAnimator = new PlayerAnimator();
+        maleAnimator = new MaleAnimator();
         this.renderer = maleAnimator;
     }
 
@@ -38,7 +40,7 @@ public class MalePlayer extends Player{
             this.velocity.x = v;
         if (InputManager.instance.upPressed) {
             if (Physics.bodyInRect(position.add(0, 1), boxCollider.width, boxCollider.height, Lava.class) != null) {
-                this.velocity.y -= 3*v;
+                this.velocity.y -= 28;
             }
         }
         moveHorizontal();
@@ -81,6 +83,7 @@ public class MalePlayer extends Player{
             }
         }
     }
+
     public void eatCondom(){
         Condom eatCondom = Physics.bodyInRect(this.boxCollider,Condom.class);
         if (eatCondom != null && eatCondom.isActive){
@@ -88,6 +91,7 @@ public class MalePlayer extends Player{
             eatCondom.getEat();
         }
     }
+
     @Override
     public void run(Vector2D parentPosition) {
         super.run(parentPosition);

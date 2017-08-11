@@ -4,6 +4,7 @@ import game.Utils;
 import game.bases.GameObject;
 import game.bases.physics.BoxCollider;
 import game.bases.physics.Physicbody;
+import game.bases.renderer.Animation;
 import game.bases.renderer.ImageRenderer;
 
 /**
@@ -13,7 +14,11 @@ public class Heart extends GameObject implements Physicbody{
     public BoxCollider boxCollider;
 
     public Heart() {
-        this.renderer = new ImageRenderer(Utils.loadImage("assets/images/items/heart.png"));
+        this.renderer = new Animation(3,true,
+                Utils.loadImage("assets/images/items/heart/heart1.png"),
+                Utils.loadImage("assets/images/items/heart/heart2.png"),
+                Utils.loadImage("assets/images/items/heart/heart3.png")
+        );
         boxCollider = new BoxCollider(32,32);
         children.add(boxCollider);
     }

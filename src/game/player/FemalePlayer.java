@@ -18,11 +18,14 @@ public class FemalePlayer extends Player{
     boolean bulletDisable;
     FrameCounter cooldownBullet;
     public static Player instanceFemale;
+    FemaleAnimator femaleAnimator;
 
     public FemalePlayer() {
         super();
         this.cooldownBullet = new FrameCounter(5);
         instanceFemale = this;
+        femaleAnimator = new FemaleAnimator();
+        this.renderer = femaleAnimator;
     }
 
     @Override
@@ -37,7 +40,7 @@ public class FemalePlayer extends Player{
             this.velocity.x = v;
         if (InputManager.instance.wPressed) {
             if (Physics.bodyInRect(position.add(0, 1), boxCollider.width, boxCollider.height, Lava.class) != null) {
-                this.velocity.y -= 3*v;
+                this.velocity.y -= 28;
             }
         }
         moveHorizontal();
@@ -85,11 +88,16 @@ public class FemalePlayer extends Player{
         }
     }
 
+    private void animate() {
+        femaleAnimator.run(this);
+    }
+
     @Override
     public void run(Vector2D parentPosition) {
         super.run(parentPosition);
         instanceFemale = this;
         eatHeart();
         castPoop();
+        animate();
     }
 }
