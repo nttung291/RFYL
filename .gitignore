@@ -1,0 +1,16 @@
+out/production/RFYL-ci/game/scenes/SceneManager.class
+out/production/RFYL-ci/game/player/MalePlayer.class
+out/production/RFYL-ci/game/items/PoopExplosion.class
+out/production/RFYL-ci/game/bases/renderer/Animation.class
+out/production/RFYL-ci/game/bases/physics/Physics.class
+out/production/RFYL-ci/game/bases/physics/Physicbody.class
+out/production/RFYL-ci/game/bases/physics/BoxCollider.class
+out/production/RFYL-ci/game/bases/GameObjectPool.class
+out/production/RFYL-ci/game/bases/FrameCounter.class
+out/production/RFYL-ci/game/scenes/Scene.class
+out/production/RFYL-ci/game/scenes/MenuScene.class
+out/production/RFYL-ci/game/scenes/Level1Scene.class
+out/production/RFYL-ci/game/player/ThrowPoop.class
+out/production/RFYL-ci/game/player/MaleAnimator.class
+out/production/RFYL-ci/game/player/FemalePlayer.class
+out/production/RFYL-ci/game/player/FemaleAnimator.class
