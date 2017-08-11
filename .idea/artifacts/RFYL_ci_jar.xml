@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RFYL-ci:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RFYL_ci_jar</output-path>
+    <root id="archive" name="RFYL-ci.jar">
+      <element id="module-output" name="RFYL-ci" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

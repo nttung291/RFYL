@@ -1,5 +1,6 @@
 package game.player;
 
+import game.bases.Contraints;
 import game.bases.FrameCounter;
 import game.bases.GameObject;
 import game.bases.Vector2D;
@@ -24,6 +25,7 @@ public class FemalePlayer extends Player{
     FemaleAnimator femaleAnimator;
     GirlAnimator girlAnimator;
     FrameCounter waitting;
+    Contraints contraints;
 
 
     public FemalePlayer() {
@@ -34,6 +36,7 @@ public class FemalePlayer extends Player{
         girlAnimator = new GirlAnimator();
         waitting = new FrameCounter(80);
         this.renderer = girlAnimator;
+        contraints = new Contraints(0,800,500,5600);
     }
 
     public void femalemove(){
@@ -53,6 +56,7 @@ public class FemalePlayer extends Player{
         position.x += velocity.x;
         moveVertical();
         position.y += velocity.y;
+        this.constraints.make(position);
     }
 
     @Override
