@@ -16,7 +16,7 @@ public class Camera extends GameObject {
     public Camera() {
         super();
         offset = new Vector2D();
-        contraints = new Contraints(0,800,600,5505);
+        contraints = new Contraints(0,800,600,5400);
     }
 
     public Vector2D getOffset() {

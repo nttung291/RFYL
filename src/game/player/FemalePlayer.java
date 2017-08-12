@@ -55,7 +55,7 @@ public class FemalePlayer extends Player{
         position.x += velocity.x;
         moveVertical();
         position.y += velocity.y;
-        position.x = Mathx.clamp(position.x,10,6000);
+        position.x = Mathx.clamp(position.x,10,6300);
     }
 
     @Override
