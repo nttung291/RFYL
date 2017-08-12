@@ -18,8 +18,8 @@ public class MenuScene extends Scene implements InputListener{
     @Override
     public void init() {
         GameObject introImage = new GameObject();
-        introImage.renderer = new ImageRenderer(Utils.loadImage("assets/startScene/rfyl.jpg"));
-        introImage.position.set(Settings.windowWidth / 2, Settings.windowHeight / 2);
+        introImage.renderer = new ImageRenderer(Utils.loadImage("assets/startScene/startscene.png"));
+        introImage.position.set(Settings.windowWidth, Settings.windowHeight / 2);
         GameObject.add(introImage);
         InputManager.instance.register(this);
     }

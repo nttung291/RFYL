@@ -13,11 +13,11 @@ public class EndScene extends Scene {
     public void init() {
         GameObject introImage = new GameObject();
         if (GameWindow.endTime1 - GameWindow.currentTime1 > GameWindow.endTime2 - GameWindow.currentTime2){
-            introImage.renderer = new ImageRenderer(Utils.loadImage("assets/endScene/endgame1.jpg"));
+            introImage.renderer = new ImageRenderer(Utils.loadImage("assets/startScene/startscene.png"));
         }else{
-            introImage.renderer = new ImageRenderer(Utils.loadImage("assets/endScene/endgame1.jpg"));
+            introImage.renderer = new ImageRenderer(Utils.loadImage("assets/startScene/startscene.png"));
         }
-        introImage.position.set(Settings.windowWidth / 2, Settings.windowHeight / 2);
+        introImage.position.set(Settings.windowWidth, Settings.windowHeight / 2);
         GameObject.add(introImage);
     }
 }
