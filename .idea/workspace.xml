@@ -7,85 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/endScene/femalewin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/endScene/malewin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/facegirl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/New folder/img10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/New folder/img7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/New folder/img7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/New folder/img8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/2 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/maleplayer/faceboy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/Jump12.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/Pickup_Item.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/fall.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/hit.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/hurt.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/jamebond.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/jamesbond007.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/runForYourLife.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/u.mp3" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/endScene/endgame1.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img2.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img3.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img5.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/New folder/img9.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img3.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img5.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/New folder/img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/New folder/5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img8.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img6.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img6.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img7.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img7.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img8.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/startScene/startscene.png" afterPath="$PROJECT_DIR$/assets/startScene/startscene.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$2.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/GameObject.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/GameObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/ImageRenderer.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/ImageRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/Renderer.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/Renderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/GirlAnimator.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/GirlAnimator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/Player.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Level2Scene.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Level2Scene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/viewports/ViewPort.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/viewports/ViewPort.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RFYL-ci.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/RFYL_ci_jar/RFYL-ci.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/GameWindow.java" afterPath="$PROJECT_DIR$/src/game/GameWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/GameObject.java" afterPath="$PROJECT_DIR$/src/game/bases/GameObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" afterPath="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java" afterPath="$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/renderer/Renderer.java" afterPath="$PROJECT_DIR$/src/game/bases/renderer/Renderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" afterPath="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/GirlAnimator.java" afterPath="$PROJECT_DIR$/src/game/player/GirlAnimator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/MaleAnimator.java" afterPath="$PROJECT_DIR$/src/game/player/MaleAnimator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/MalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/Player.java" afterPath="$PROJECT_DIR$/src/game/player/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/EndScene.java" afterPath="$PROJECT_DIR$/src/game/scenes/EndScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" afterPath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" afterPath="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/SceneManager.java" afterPath="$PROJECT_DIR$/src/game/scenes/SceneManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/viewports/ViewPort.java" afterPath="$PROJECT_DIR$/src/game/viewports/ViewPort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -147,8 +72,8 @@
       <file leaf-file-name="EndScene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/scenes/EndScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="266">
+              <caret line="26" column="94" lean-forward="false" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -469,6 +394,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="renderer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2155,7 +2112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502497881478</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="core game 12">
+      <created>1502505705957</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1502505705957</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2176,7 +2140,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2634,15 +2598,15 @@
     <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/scenes/EndScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="266">
+          <caret line="26" column="94" lean-forward="false" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
