@@ -27,26 +27,22 @@ public class FemaleAnimator implements Renderer {
     public Animation currenAnimation;
 
     public FemaleAnimator() {
-        leftAnimation = new Animation(1,true,
+        leftAnimation = new Animation(3,true,
                 Utils.loadImage("assets/images/femaleplayer/runleft/img1.png"),
                 Utils.loadImage("assets/images/femaleplayer/runleft/img2.png"),
                 Utils.loadImage("assets/images/femaleplayer/runleft/img3.png"),
                 Utils.loadImage("assets/images/femaleplayer/runleft/img4.png"),
                 Utils.loadImage("assets/images/femaleplayer/runleft/img5.png"),
-                Utils.loadImage("assets/images/femaleplayer/runleft/img6.png"),
-                Utils.loadImage("assets/images/femaleplayer/runleft/img7.png"),
-                Utils.loadImage("assets/images/femaleplayer/runleft/img8.png")
+                Utils.loadImage("assets/images/femaleplayer/runleft/img6.png")
         );
 
-        rightAnimation = new Animation(1,true,
+        rightAnimation = new Animation(3,true,
                 Utils.loadImage("assets/images/femaleplayer/runright/img1.png"),
                 Utils.loadImage("assets/images/femaleplayer/runright/img2.png"),
                 Utils.loadImage("assets/images/femaleplayer/runright/img3.png"),
                 Utils.loadImage("assets/images/femaleplayer/runright/img4.png"),
                 Utils.loadImage("assets/images/femaleplayer/runright/img5.png"),
-                Utils.loadImage("assets/images/femaleplayer/runright/img6.png"),
-                Utils.loadImage("assets/images/femaleplayer/runright/img7.png"),
-                Utils.loadImage("assets/images/femaleplayer/runright/img8.png")
+                Utils.loadImage("assets/images/femaleplayer/runright/img6.png")
         );
         standleftAnimation = new Animation(10,true,
                 Utils.loadImage("assets/images/femaleplayer/standleft/img1.png"),
@@ -66,7 +62,7 @@ public class FemaleAnimator implements Renderer {
                 Utils.loadImage("assets/images/femaleplayer/jumpleft/img4.png")
         );
 
-        throwshitleft = new Animation(1,true,
+        throwshitleft = new Animation(2,true,
                 Utils.loadImage("assets/images/femaleplayer/throwshit/throwshitleft/img2.png"),
                 Utils.loadImage("assets/images/femaleplayer/throwshit/throwshitleft/img3.png"),
                 Utils.loadImage("assets/images/femaleplayer/throwshit/throwshitleft/img4.png"),
@@ -77,7 +73,7 @@ public class FemaleAnimator implements Renderer {
                 Utils.loadImage("assets/images/femaleplayer/throwshit/throwshitleft/img9.png")
         );
 
-        throwshitright = new Animation(1,true,
+        throwshitright = new Animation(2,true,
                 Utils.loadImage("assets/images/femaleplayer/throwshit/throwshitright/img2.png"),
                 Utils.loadImage("assets/images/femaleplayer/throwshit/throwshitright/img3.png"),
                 Utils.loadImage("assets/images/femaleplayer/throwshit/throwshitright/img4.png"),
@@ -173,5 +169,10 @@ public class FemaleAnimator implements Renderer {
         if (currenAnimation != null) {
             currenAnimation.render(g,position,camera);
         }
+    }
+
+    @Override
+    public void render(Graphics2D g, Vector2D position) {
+
     }
 }

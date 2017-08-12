@@ -28,7 +28,7 @@ public class MaleAnimator implements Renderer {
     public Animation currenAnimation;
 
     public MaleAnimator() {
-        leftAnimation = new Animation(1,true,
+        leftAnimation = new Animation(3,true,
                 Utils.loadImage("assets/images/maleplayer/runleft/img1.png"),
                 Utils.loadImage("assets/images/maleplayer/runleft/img2.png"),
                 Utils.loadImage("assets/images/maleplayer/runleft/img3.png"),
@@ -40,7 +40,7 @@ public class MaleAnimator implements Renderer {
 
         );
 
-        rightAnimation = new Animation(1,true,
+        rightAnimation = new Animation(3,true,
                 Utils.loadImage("assets/images/maleplayer/runright/img1.png"),
                 Utils.loadImage("assets/images/maleplayer/runright/img2.png"),
                 Utils.loadImage("assets/images/maleplayer/runright/img3.png"),
@@ -68,7 +68,7 @@ public class MaleAnimator implements Renderer {
                 Utils.loadImage("assets/images/maleplayer/jumpleft/img4.png")
         );
 
-        throwshitleft = new Animation(1,true,
+        throwshitleft = new Animation(2,true,
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img1.png"),
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img2.png"),
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img3.png"),
@@ -78,7 +78,7 @@ public class MaleAnimator implements Renderer {
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitleft/img7.png")
         );
 
-        throwshitright = new Animation(1,true,
+        throwshitright = new Animation(2,true,
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitright/img1.png"),
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitright/img2.png"),
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitright/img3.png"),
@@ -88,7 +88,7 @@ public class MaleAnimator implements Renderer {
                 Utils.loadImage("assets/images/maleplayer/throwshit/throwshitright/img7.png")
         );
 
-        fallingleft = new Animation(2,true,
+        fallingleft = new Animation(2,false,
                 Utils.loadImage("assets/images/maleplayer/fallingleft/img1.png"),
                 Utils.loadImage("assets/images/maleplayer/fallingleft/img2.png"),
                 Utils.loadImage("assets/images/maleplayer/fallingleft/img3.png"),
@@ -104,7 +104,7 @@ public class MaleAnimator implements Renderer {
                 Utils.loadImage("assets/images/maleplayer/fallingleft/img14.png"),
                 Utils.loadImage("assets/images/maleplayer/fallingleft/img15.png")
         );
-        fallingright = new Animation(2,true,
+        fallingright = new Animation(2,false,
                 Utils.loadImage("assets/images/maleplayer/fallingright/img1.png"),
                 Utils.loadImage("assets/images/maleplayer/fallingright/img2.png"),
                 Utils.loadImage("assets/images/maleplayer/fallingright/img3.png"),
@@ -122,7 +122,7 @@ public class MaleAnimator implements Renderer {
         );
         if (GameWindow.checkLevel == 1){
             currenAnimation = standrightAnimation;
-        }else{
+        }else {
             currenAnimation = standleftAnimation;
         }
     }
@@ -170,5 +170,10 @@ public class MaleAnimator implements Renderer {
         if (currenAnimation != null) {
             currenAnimation.render(g,position,camera);
         }
+    }
+
+    @Override
+    public void render(Graphics2D g, Vector2D position) {
+
     }
 }

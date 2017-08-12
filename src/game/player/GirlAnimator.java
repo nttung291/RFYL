@@ -8,6 +8,7 @@ import game.bases.renderer.Renderer;
 import game.cameras.Camera;
 import inputs.InputManager;
 
+import javax.rmi.CORBA.Util;
 import java.awt.*;
 
 /**
@@ -27,26 +28,26 @@ public class GirlAnimator implements Renderer {
     public Animation currenAnimation;
 
     public GirlAnimator() {
-        leftAnimation = new Animation(1,true,
+        leftAnimation = new Animation(3,true,
+                Utils.loadImage("assets/images/girlplayer/runleft/img1.png"),
                 Utils.loadImage("assets/images/girlplayer/runleft/img2.png"),
                 Utils.loadImage("assets/images/girlplayer/runleft/img3.png"),
                 Utils.loadImage("assets/images/girlplayer/runleft/img4.png"),
                 Utils.loadImage("assets/images/girlplayer/runleft/img5.png"),
                 Utils.loadImage("assets/images/girlplayer/runleft/img6.png"),
                 Utils.loadImage("assets/images/girlplayer/runleft/img7.png"),
-                Utils.loadImage("assets/images/girlplayer/runleft/img8.png"),
-                Utils.loadImage("assets/images/girlplayer/runleft/img9.png")
+                Utils.loadImage("assets/images/girlplayer/runleft/img8.png")
         );
 
-        rightAnimation = new Animation(1,true,
+        rightAnimation = new Animation(3,true,
+                Utils.loadImage("assets/images/girlplayer/runright/img1.png"),
                 Utils.loadImage("assets/images/girlplayer/runright/img2.png"),
                 Utils.loadImage("assets/images/girlplayer/runright/img3.png"),
                 Utils.loadImage("assets/images/girlplayer/runright/img4.png"),
                 Utils.loadImage("assets/images/girlplayer/runright/img5.png"),
                 Utils.loadImage("assets/images/girlplayer/runright/img6.png"),
                 Utils.loadImage("assets/images/girlplayer/runright/img7.png"),
-                Utils.loadImage("assets/images/girlplayer/runright/img8.png"),
-                Utils.loadImage("assets/images/girlplayer/runright/img9.png")
+                Utils.loadImage("assets/images/girlplayer/runright/img8.png")
         );
         standleftAnimation = new Animation(10,true,
                 Utils.loadImage("assets/images/girlplayer/standleft/img1.png"),
@@ -66,7 +67,7 @@ public class GirlAnimator implements Renderer {
                 Utils.loadImage("assets/images/girlplayer/jumpleft/img5.png")
         );
 
-        throwshitleft = new Animation(1,true,
+        throwshitleft = new Animation(2,true,
                 Utils.loadImage("assets/images/girlplayer/throwshit/throwshitleft/img1.png"),
                 Utils.loadImage("assets/images/girlplayer/throwshit/throwshitleft/img2.png"),
                 Utils.loadImage("assets/images/girlplayer/throwshit/throwshitleft/img3.png"),
@@ -75,7 +76,7 @@ public class GirlAnimator implements Renderer {
                 Utils.loadImage("assets/images/girlplayer/throwshit/throwshitleft/img6.png")
         );
 
-        throwshitright = new Animation(1,true,
+        throwshitright = new Animation(2,true,
                 Utils.loadImage("assets/images/girlplayer/throwshit/throwshitright/img1.png"),
                 Utils.loadImage("assets/images/girlplayer/throwshit/throwshitright/img2.png"),
                 Utils.loadImage("assets/images/girlplayer/throwshit/throwshitright/img3.png"),
@@ -148,5 +149,10 @@ public class GirlAnimator implements Renderer {
         if (currenAnimation != null) {
             currenAnimation.render(g,position,camera);
         }
+    }
+
+    @Override
+    public void render(Graphics2D g, Vector2D position) {
+
     }
 }

@@ -74,4 +74,10 @@ public class Animation implements Renderer {
         Vector2D positionInCamera = camera.translate(realPosition);
         g.drawImage(image, (int) positionInCamera.x, (int) positionInCamera.y, null);
     }
+
+    @Override
+    public void render(Graphics2D g, Vector2D position) {
+
+    }
+
 }

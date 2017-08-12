@@ -11,6 +11,7 @@ import java.awt.*;
 public class ViewPort {
     private boolean isHidden;
     private Camera camera;
+    public static boolean followingDisabled;
 
     public ViewPort() {
         camera = new Camera();
@@ -26,10 +27,12 @@ public class ViewPort {
 
     public void render(Graphics2D g, java.util.List<GameObject> gameObjects) {
         if (!isHidden) {
-            if (camera != null) {
+            if (!followingDisabled && camera != null) {
                 for (GameObject gameObject : gameObjects) {
                     gameObject.render(g, camera);
                 }
+            } else {
+                GameObject.renderAll(g);
             }
         }
     }

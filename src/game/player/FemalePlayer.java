@@ -8,6 +8,7 @@ import game.bases.physics.Physics;
 import game.items.Heart;
 import game.items.Lava;
 import inputs.InputManager;
+import tklibs.AudioUtils;
 import tklibs.Mathx;
 
 import static game.GameWindow.checkLevel;
@@ -34,6 +35,7 @@ public class FemalePlayer extends Player{
         instanceFemale = this;
         femaleAnimator = new FemaleAnimator();
         girlAnimator = new GirlAnimator();
+        femaleAnimator = new FemaleAnimator();
         waitting = new FrameCounter(80);
         this.renderer = girlAnimator;
     }
@@ -72,6 +74,7 @@ public class FemalePlayer extends Player{
     public void eatHeart(){
         Heart eatHeart = Physics.bodyInRect(this.boxCollider, Heart.class);
         if (eatHeart != null && eatHeart.isActive){
+            AudioUtils.playMedia("assets/music/Pickup_Item.wav");
             heart++;
             eatHeart.getEat();
         }
@@ -99,6 +102,7 @@ public class FemalePlayer extends Player{
                     GameObject.add(PoopBullet);
                     bullet--;
                 }
+                AudioUtils.playMedia("assets/music/hit.wav");
                 bulletDisable = true;
             }
         }
@@ -115,7 +119,12 @@ public class FemalePlayer extends Player{
     }
 
     private void animate() {
-       girlAnimator.run(this);
+       if (checkLevel == 1){
+           girlAnimator.run(this);
+       }else {
+           this.renderer = femaleAnimator;
+           femaleAnimator.run(this);
+       }
     }
 
     @Override

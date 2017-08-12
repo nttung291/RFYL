@@ -27,6 +27,13 @@ public class ImageRenderer implements Renderer{
         g.drawImage(image, (int) positionInCamera.x, (int) positionInCamera.y, null);
     }
 
+    @Override
+    public void render(Graphics2D g, Vector2D position) {
+        g.drawImage(image,(int)(position.x-image.getWidth()*anchor.x),
+                (int) (position.y - image.getHeight()*anchor.y),null
+        );
+    }
+
     public ImageRenderer setAnchor(Vector2D anchor) {
         this.anchor = anchor;
         return this;

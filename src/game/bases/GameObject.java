@@ -61,6 +61,19 @@ public class GameObject {
         return gameObjects;
     }
 
+
+   public void render(Graphics2D g2d){
+        if (renderer!=null){
+            renderer.render(g2d,this.screenPosition);
+        }
+   }
+
+    public static void renderAll(Graphics2D g2d){
+        for (GameObject gameObject : gameObjects){
+            gameObject.render(g2d);
+        }
+    }
+
     public void render(Graphics2D g2d, Camera camera) {
         if (renderer != null && this.isActive) {
             renderer.render(g2d, this.screenPosition, camera);

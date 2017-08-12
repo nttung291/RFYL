@@ -1,7 +1,6 @@
 package game;
 
 
-
 import game.bases.GameObject;
 
 import game.player.Player;
@@ -10,6 +9,9 @@ import game.viewports.ViewPort;
 import inputs.InputManager;
 import game.player.FemalePlayer;
 import game.player.MalePlayer;
+import javafx.scene.media.MediaPlayer;
+import javafx.util.Duration;
+import tklibs.AudioUtils;
 
 import javax.swing.*;
 import java.awt.*;
@@ -61,13 +63,12 @@ public class GameWindow extends JFrame {
 
     private void setupStartScene() {
         startScene = new MenuScene();
-        startScene.init();
         SceneManager.instance.requestChangeScene(startScene);
     }
 
 
-    private void setupWindow(){
-        this.setSize(1500,800);
+    private void setupWindow() {
+        this.setSize(1500, 800);
         this.setResizable(false);
         this.setTitle("Run for your life");
         this.addWindowListener(new WindowAdapter() {
@@ -110,29 +111,39 @@ public class GameWindow extends JFrame {
     }
 
     private void addViewPorts() {
-            maleViewPort = new ViewPort();
-            maleViewPort.getCamera().follow(MalePlayer.instanceMale);
-            maleViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
+        maleViewPort = new ViewPort();
+        maleViewPort.getCamera().follow(MalePlayer.instanceMale);
+        maleViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
 
-            femaleViewPort = new ViewPort();
-            femaleViewPort.getCamera().follow(FemalePlayer.instanceFemale);
-            femaleViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
+        femaleViewPort = new ViewPort();
+        femaleViewPort.getCamera().follow(FemalePlayer.instanceFemale);
+        femaleViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
 
-            mainViewPort = new ViewPort();
-            mainViewPort.getCamera().followedObject = new GameObject();
-            mainViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
+        mainViewPort = new ViewPort();
+        mainViewPort.getCamera().followedObject = new GameObject();
+        mainViewPort.getCamera().getOffset().set(getWidth() / 4, 0);
 
 
-            GameObject.add(maleViewPort.getCamera());
-            GameObject.add(femaleViewPort.getCamera());
-            GameObject.add(mainViewPort.getCamera());
+        GameObject.add(maleViewPort.getCamera());
+        GameObject.add(femaleViewPort.getCamera());
+        GameObject.add(mainViewPort.getCamera());
     }
 
     long lastUpdateTime;
-    public void loop(){
-        while(true){
+
+    public void loop() {
+        AudioUtils.initialize();
+        MediaPlayer mediaPlayer = AudioUtils.playMedia("assets/music/jamebond.mp3");
+        while (true) {
+            mediaPlayer.setAutoPlay(true);
+            mediaPlayer.setOnEndOfMedia(new Runnable() {
+                @Override
+                public void run() {
+                    mediaPlayer.seek(Duration.ZERO);
+                }
+            });
             long curentTime = System.currentTimeMillis();
-            if (curentTime - lastUpdateTime > 17){
+            if (curentTime - lastUpdateTime > 17) {
                 lastUpdateTime = curentTime;
                 run();
                 render();
@@ -140,13 +151,13 @@ public class GameWindow extends JFrame {
         }
     }
 
-    public void nextLevel2(){
-        if ((MalePlayer.hitFemale() || FemalePlayer.heart == 5) && checkLevel == 1){
-           new Level1Scene().nextSence();
+    public void nextLevel2() {
+        if ((MalePlayer.hitFemale() || FemalePlayer.heart == 5) && checkLevel == 1) {
+            new Level1Scene().nextSence();
         }
     }
 
-    public void end(){
+    public void end() {
         if ((FemalePlayer.hitMale() || MalePlayer.condom == 5) && checkLevel == 2) {
             new Level2Scene().nextSence();
         }
@@ -171,11 +182,21 @@ public class GameWindow extends JFrame {
             backBufferGraphic2D.drawLine(getWidth()/2,0,getWidth()/2,800);
         }else{
             mainViewPort.render(backBufferGraphic2D,GameObject.getGameObjects());
-            mainViewPort.getCamera().followedObject.position.x = (MalePlayer.instanceMale.position.x + FemalePlayer.instanceFemale.position.x)/2;
+            mainViewPort.getCamera().followedObject.position.x = (MalePlayer.instanceMale.position.x + FemalePlayer.instanceFemale.position.x) / 2;
             backBufferGraphic2D.drawImage(backBufferImage,0,0,null);
         }
-        Graphics2D graphics2D = (Graphics2D) this.getGraphics();
-        graphics2D.drawImage(backBufferImage,0,0,null);
-    }
+       if (checkLevel != 0){
+           backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/maleplayer/faceboy.png"), 100, this.getHeight() - 50, null);
+           backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/femaleplayer/facegirl.png"), this.getWidth() - 500, this.getHeight() - 50, null);
+           for (int i = 1; i <= FemalePlayer.heart; i++) {
+               backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/items/heart/heart1.png"), this.getWidth() - 500 + i * 50, this.getHeight() - 50, null);
+           }
+           for (int i = 1; i <= MalePlayer.condom; i++) {
+               backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/items/condom.png"), 100 + i * 50, this.getHeight() - 50, null);
+           }
+       }
 
+        Graphics2D graphics2D = (Graphics2D) this.getGraphics();
+        graphics2D.drawImage(backBufferImage, 0, 0, null);
+    }
 }

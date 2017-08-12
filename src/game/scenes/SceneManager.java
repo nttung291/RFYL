@@ -21,19 +21,21 @@ public class SceneManager {
         if (nextScene != null){
             if (currentScene != null){
                 currentScene.deInit();
-                nextScene.init();
-                currentScene = nextScene;
-                nextScene = null;
-
             }
+
+            nextScene.init();
+            currentScene = nextScene;
+            nextScene = null;
         }
     }
 
     public void requestChangeScene(Scene scene){
-        if (currentScene == null){
-            currentScene = scene;
-        }else {
+//        if (currentScene == null){
+//            currentScene = scene;
+//        }else {
+        if (nextScene == null) {
             nextScene = scene;
         }
+//        }
     }
 }

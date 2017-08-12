@@ -6,6 +6,7 @@ import game.Utils;
 import game.bases.GameObject;
 import game.gson.MapJson;
 import game.items.*;
+import game.player.FemaleAnimator;
 import game.player.FemalePlayer;
 import game.player.MalePlayer;
 import game.player.Player;
@@ -46,12 +47,13 @@ public class Level2Scene extends Scene {
     }
 
     private void addViewPorts() {
+        GameWindow.maleViewPort = new ViewPort();
         GameWindow.maleViewPort.getCamera().follow(MalePlayer.instanceMale);
-        GameWindow.maleViewPort.getCamera().getOffset().set(400, 0);
+        GameWindow.maleViewPort.getCamera().getOffset().set(300, 0);
 
         GameWindow.femaleViewPort = new ViewPort();
         GameWindow.femaleViewPort.getCamera().follow(FemalePlayer.instanceFemale);
-        GameWindow.femaleViewPort.getCamera().getOffset().set(400, 0);
+        GameWindow.femaleViewPort.getCamera().getOffset().set(300, 0);
 
         GameWindow.mainViewPort = new ViewPort();
         GameWindow. mainViewPort.getCamera().followedObject = new GameObject();
@@ -99,6 +101,8 @@ public class Level2Scene extends Scene {
 
     public void nextSence(){
         GameWindow.endTime2 = System.currentTimeMillis();
-        SceneManager.instance.requestChangeScene(new EndScene());
+        EndScene endScene = new EndScene();
+        //endScene.init();
+        SceneManager.instance.requestChangeScene(endScene);
     }
 }

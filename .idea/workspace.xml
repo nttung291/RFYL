@@ -7,11 +7,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc831ca-f5b1-439b-96c9-ab41dc38c1b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/startScene/startscene.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/startScene/rfyl.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/endScene/femalewin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/endScene/malewin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/facegirl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/New folder/img10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/New folder/img7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/New folder/img7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/New folder/img8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/2 (2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/New folder/img9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/maleplayer/faceboy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/Jump12.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/Pickup_Item.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/fall.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/hit.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/hurt.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/jamebond.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/jamesbond007.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/runForYourLife.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/u.mp3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/endScene/endgame1.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img2.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img3.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img5.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/New folder/img9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img3.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img5.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/New folder/img5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img1.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/New folder/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img8.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img6.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runleft/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img6.png" afterPath="$PROJECT_DIR$/assets/images/femaleplayer/runright/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img7.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runleft/img7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img2.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img3.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img4.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img5.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img6.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img7.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/girlplayer/runright/img8.png" afterPath="$PROJECT_DIR$/assets/images/girlplayer/runright/img8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/startScene/startscene.png" afterPath="$PROJECT_DIR$/assets/startScene/startscene.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$2.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/GameWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/GameObject.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/GameObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/ImageRenderer.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/ImageRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/Renderer.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/bases/renderer/Renderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/GirlAnimator.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/GirlAnimator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/Player.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/player/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Level2Scene.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/scenes/Level2Scene.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RFYL-ci/game/viewports/ViewPort.class" afterPath="$PROJECT_DIR$/out/production/RFYL-ci/game/viewports/ViewPort.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/GameWindow.java" afterPath="$PROJECT_DIR$/src/game/GameWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/GameObject.java" afterPath="$PROJECT_DIR$/src/game/bases/GameObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" afterPath="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java" afterPath="$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/renderer/Renderer.java" afterPath="$PROJECT_DIR$/src/game/bases/renderer/Renderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" afterPath="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/GirlAnimator.java" afterPath="$PROJECT_DIR$/src/game/player/GirlAnimator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/MaleAnimator.java" afterPath="$PROJECT_DIR$/src/game/player/MaleAnimator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/MalePlayer.java" afterPath="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/Player.java" afterPath="$PROJECT_DIR$/src/game/player/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/EndScene.java" afterPath="$PROJECT_DIR$/src/game/scenes/EndScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/MenuScene.java" afterPath="$PROJECT_DIR$/src/game/scenes/MenuScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" afterPath="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" afterPath="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/scenes/SceneManager.java" afterPath="$PROJECT_DIR$/src/game/scenes/SceneManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/viewports/ViewPort.java" afterPath="$PROJECT_DIR$/src/game/viewports/ViewPort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,18 +101,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
+      <file leaf-file-name="ViewPort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/viewports/ViewPort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="144" column="36" lean-forward="true" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
+            <state relative-caret-position="77">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setupStartScene#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupWindow#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
-                <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/Animation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,21 +137,31 @@
       <file leaf-file-name="MenuScene.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="97" />
+            <state relative-caret-position="161">
+              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FemalePlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/FemalePlayer.java">
+      <file leaf-file-name="EndScene.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/scenes/EndScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+            <state relative-caret-position="399">
+              <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
               <folding>
-                <element signature="method#cooldown#0;class#FemalePlayer#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FemaleAnimator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/FemaleAnimator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483">
+              <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,85 +169,42 @@
       <file leaf-file-name="MalePlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+            <state relative-caret-position="2051">
+              <caret line="114" column="65" lean-forward="false" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
-                <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
+      <file leaf-file-name="MaleAnimator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/MaleAnimator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <element signature="method#eatPoop#0;class#Player#0" expanded="false" />
-                <element signature="method#eatPoopBullet#0;class#Player#0" expanded="false" />
-                <element signature="method#eatBanana#0;class#Player#0" expanded="false" />
-                <element signature="method#eatDrug#0;class#Player#0" expanded="false" />
-                <element signature="method#moveHorizontal#0;class#Player#0" expanded="false" />
-                <element signature="method#moveVertical#0;class#Player#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EndScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/scenes/EndScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="105" lean-forward="true" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/cameras/Camera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="2058">
+              <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level1Scene.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/game/scenes/Level1Scene.java">
+      <file leaf-file-name="GirlAnimator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/GirlAnimator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="106" column="59" lean-forward="true" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#addBackGround#0;class#Level1Scene#0" expanded="false" />
-                <element signature="method#readGson#0;class#Level1Scene#0" expanded="false" />
-                <element signature="method#addViewPorts#0;class#Level1Scene#0" expanded="false" />
-                <element signature="method#addIteam#0;class#Level1Scene#0" expanded="false" />
-                <element signature="method#addPlayer#0;class#Level1Scene#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="78" column="40" lean-forward="false" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level2Scene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/scenes/Level2Scene.java">
+      <file leaf-file-name="SceneManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/scenes/SceneManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="101" column="65" lean-forward="true" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#addBackGround#0;class#Level2Scene#0" expanded="false" />
-                <element signature="method#readGson#0;class#Level2Scene#0" expanded="false" />
-                <element signature="method#addViewPorts#0;class#Level2Scene#0" expanded="false" />
-                <element signature="method#addIteam#0;class#Level2Scene#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,6 +222,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>render</find>
+      <find>MenuSC</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,12 +254,9 @@
         <option value="$PROJECT_DIR$/src/game/bases/physics/Platform.java" />
         <option value="$PROJECT_DIR$/src/game/items/Lava.java" />
         <option value="$PROJECT_DIR$/src/game/bases/physics/BoxCollider.java" />
-        <option value="$PROJECT_DIR$/src/game/viewports/ViewPort.java" />
         <option value="$PROJECT_DIR$/src/game/bases/physics/Physics.java" />
         <option value="$PROJECT_DIR$/src/game/player/PlayerMove.java" />
         <option value="$PROJECT_DIR$/src/game/bases/renderers/Animation.java" />
-        <option value="$PROJECT_DIR$/src/game/bases/renderer/Renderer.java" />
-        <option value="$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/BackGround.java" />
         <option value="$PROJECT_DIR$/src/game/items/PoopExplosion.java" />
         <option value="$PROJECT_DIR$/src/game/items/Poop.java" />
@@ -208,25 +264,28 @@
         <option value="$PROJECT_DIR$/src/game/items/Drug.java" />
         <option value="$PROJECT_DIR$/src/game/items/Banana.java" />
         <option value="$PROJECT_DIR$/src/game/items/Heart.java" />
-        <option value="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" />
         <option value="$PROJECT_DIR$/src/game/player/PlayerAnimator.java" />
-        <option value="$PROJECT_DIR$/src/game/player/Player.java" />
-        <option value="$PROJECT_DIR$/src/game/bases/GameObject.java" />
         <option value="$PROJECT_DIR$/src/inputs/InputManager.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/Scene.java" />
-        <option value="$PROJECT_DIR$/src/game/scenes/SceneManager.java" />
-        <option value="$PROJECT_DIR$/src/game/player/MaleAnimator.java" />
-        <option value="$PROJECT_DIR$/src/game/player/GirlAnimator.java" />
-        <option value="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" />
         <option value="$PROJECT_DIR$/src/tklibs/Mathx.java" />
-        <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
-        <option value="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/Settings.java" />
         <option value="$PROJECT_DIR$/src/game/cameras/Camera.java" />
-        <option value="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
-        <option value="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
-        <option value="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/MenuScene.java" />
+        <option value="$PROJECT_DIR$/src/game/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/game/player/FemalePlayer.java" />
+        <option value="$PROJECT_DIR$/src/game/player/MalePlayer.java" />
+        <option value="$PROJECT_DIR$/src/game/scenes/SceneManager.java" />
+        <option value="$PROJECT_DIR$/src/game/scenes/Level2Scene.java" />
+        <option value="$PROJECT_DIR$/src/game/scenes/Level1Scene.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderer/Renderer.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderer/Animation.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/game/viewports/ViewPort.java" />
+        <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
+        <option value="$PROJECT_DIR$/src/game/player/FemaleAnimator.java" />
+        <option value="$PROJECT_DIR$/src/game/player/GirlAnimator.java" />
+        <option value="$PROJECT_DIR$/src/game/player/MaleAnimator.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/EndScene.java" />
       </list>
     </option>
@@ -375,11 +434,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="startScene" />
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,12 +486,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunForYourLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="endScene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tungnt-cihw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RunForYourLife - Copy" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -2041,7 +2148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502496724729</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="core game 12">
+      <created>1502497881477</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1502497881478</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2062,7 +2176,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2146,31 +2260,12 @@
     <MESSAGE value="core game 9" />
     <MESSAGE value="core game 10" />
     <MESSAGE value="core game 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="core game 11" />
+    <MESSAGE value="core game 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="core game 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/game/viewports/ViewPort.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/game/scenes/Level2Scene.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/game/scenes/Level2Scene.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2214,16 +2309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/viewports/ViewPort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26" column="78" lean-forward="false" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/bases/physics/Physics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -2243,20 +2328,6 @@
     <entry file="file://$PROJECT_DIR$/src/game/bases/renderers/Renderer.java" />
     <entry file="file://$PROJECT_DIR$/src/game/bases/renderers/Animation.java" />
     <entry file="file://$PROJECT_DIR$/src/game/bases/renderers/ImageRenderer.java" />
-    <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/items/poop/poop2.psd" />
     <entry file="file://$PROJECT_DIR$/assets/images/items/poop/poop1.png">
       <provider selected="true" editor-type-id="images">
@@ -2311,24 +2382,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1015#1016#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/items/PoopExplosion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2353,6 +2413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2368,30 +2429,6 @@
             <element signature="e#866#867#0" expanded="false" />
             <element signature="e#916#917#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/SceneManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/GirlAnimator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="103" column="9" lean-forward="false" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/FemaleAnimator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2419,22 +2456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/bases/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/scenes/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -2451,92 +2472,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
-            <element signature="method#eatCondom#0;class#MalePlayer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="method#eatPoop#0;class#Player#0" expanded="false" />
-            <element signature="method#eatPoopBullet#0;class#Player#0" expanded="false" />
-            <element signature="method#eatBanana#0;class#Player#0" expanded="false" />
-            <element signature="method#eatDrug#0;class#Player#0" expanded="false" />
-            <element signature="method#moveHorizontal#0;class#Player#0" expanded="false" />
-            <element signature="method#moveVertical#0;class#Player#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="144" column="36" lean-forward="true" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setupStartScene#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupWindow#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
-            <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="97" />
+        <state relative-caret-position="168">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/player/FemalePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state relative-caret-position="-112">
+          <caret line="76" column="65" lean-forward="false" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
           <folding>
+            <element signature="method#femalemove#0;class#FemalePlayer#0" expanded="false" />
             <element signature="method#cooldown#0;class#FemalePlayer#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/MaleAnimator.java">
+    <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2187">
-          <caret line="126" column="9" lean-forward="true" selection-start-line="122" selection-start-column="7" selection-end-line="126" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scenes/EndScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="105" lean-forward="true" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+        <state relative-caret-position="337">
+          <caret line="49" column="50" lean-forward="true" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#eatPoop#0;class#Player#0" expanded="false" />
+            <element signature="method#moveHorizontal#0;class#Player#0" expanded="false" />
+            <element signature="method#moveVertical#0;class#Player#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/scenes/Level2Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="101" column="65" lean-forward="true" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
+        <state relative-caret-position="749">
+          <caret line="58" column="79" lean-forward="true" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addBackGround#0;class#Level2Scene#0" expanded="false" />
             <element signature="method#readGson#0;class#Level2Scene#0" expanded="false" />
-            <element signature="method#addViewPorts#0;class#Level2Scene#0" expanded="false" />
             <element signature="method#addIteam#0;class#Level2Scene#0" expanded="false" />
           </folding>
         </state>
@@ -2544,15 +2518,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/scenes/Level1Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="106" column="59" lean-forward="true" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        <state relative-caret-position="371">
+          <caret line="106" column="68" lean-forward="true" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addBackGround#0;class#Level1Scene#0" expanded="false" />
             <element signature="method#readGson#0;class#Level1Scene#0" expanded="false" />
-            <element signature="method#addViewPorts#0;class#Level1Scene#0" expanded="false" />
             <element signature="method#addIteam#0;class#Level1Scene#0" expanded="false" />
             <element signature="method#addPlayer#0;class#Level1Scene#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/viewports/ViewPort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="167" column="44" lean-forward="false" selection-start-line="167" selection-start-column="44" selection-end-line="167" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setupWindow#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#setupBackBuffer#0;class#GameWindow#0" expanded="false" />
+            <element signature="method#addViewPorts#0;class#GameWindow#0" expanded="false" />
+            <element signature="e#4171#4172#0" expanded="true" />
+            <element signature="e#4242#4243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/SceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/MalePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2051">
+          <caret line="114" column="65" lean-forward="false" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#cooldown#0;class#MalePlayer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/MaleAnimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/GirlAnimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="78" column="40" lean-forward="false" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/FemaleAnimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/ImageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/renderer/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/MenuScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scenes/EndScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

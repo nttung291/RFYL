@@ -8,6 +8,7 @@ import game.bases.physics.Physics;
 import game.items.Condom;
 import game.items.Lava;
 import inputs.InputManager;
+import tklibs.AudioUtils;
 import tklibs.Mathx;
 
 import static game.GameWindow.checkLevel;
@@ -84,6 +85,7 @@ public class MalePlayer extends Player{
                     GameObject.add(PoopBullet);
                     bullet--;
                 }
+                AudioUtils.playMedia("assets/music/hit.wav");
                 bulletDisable = true;
             }
         }
@@ -110,6 +112,7 @@ public class MalePlayer extends Player{
     public void eatCondom(){
         Condom eatCondom = Physics.bodyInRect(this.boxCollider,Condom.class);
         if (eatCondom != null && eatCondom.isActive){
+            AudioUtils.playMedia("assets/music/Pickup_Item.wav");
             condom++;
             eatCondom.getEat();
         }

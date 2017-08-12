@@ -13,6 +13,7 @@ import game.items.Banana;
 import game.items.Drug;
 import game.items.Lava;
 import game.items.Poop;
+import tklibs.AudioUtils;
 
 import static game.player.MalePlayer.condom;
 
@@ -73,6 +74,7 @@ public class Player extends GameObject implements Physicbody {
     private void eatPoopBullet() {
         ThrowPoop eatPoopBullet = Physics.bodyInRect(this.boxCollider, ThrowPoop.class);
         if (eatPoopBullet != null && eatPoopBullet.isActive){
+            AudioUtils.playMedia("assets/music/hurt.wav");
             eatPoopBullet.getEat();
             v = 5;
         }
@@ -87,6 +89,7 @@ public class Player extends GameObject implements Physicbody {
     public void eatBanana() {
         Banana eatBanana = Physics.bodyInRect(this.boxCollider, Banana.class);
         if (eatBanana != null && eatBanana.isActive){
+            AudioUtils.playMedia("assets/music/fall.wav");
             eatBanana.getEat();
             bananaStand = true;
         }
@@ -101,6 +104,7 @@ public class Player extends GameObject implements Physicbody {
     public void eatDrug() {
         Drug eatDrug = Physics.bodyInRect(this.boxCollider,Drug.class);
         if (eatDrug != null && eatDrug.isActive ){
+            AudioUtils.playMedia("assets/music/Pickup_Item.wav");
             eatDrug.getEat();
             v=15;
             buffSpeedDrug = true;

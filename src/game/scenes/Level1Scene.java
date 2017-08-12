@@ -33,7 +33,6 @@ public class Level1Scene extends Scene {
         checkLevel = 1;
     }
 
-
     public void addBackGround(){
         BackGround backGround = new BackGround();
         GameObject.add(backGround);
@@ -50,12 +49,13 @@ public class Level1Scene extends Scene {
     }
 
     private void addViewPorts() {
-        GameWindow.maleViewPort.getCamera().follow(MalePlayer.instanceMale);
-        GameWindow.maleViewPort.getCamera().getOffset().set(400, 0);
+        GameWindow.maleViewPort = new ViewPort();
+        GameWindow.maleViewPort.getCamera().follow(malePlayer);
+        GameWindow.maleViewPort.getCamera().getOffset().set(300, 0);
 
         GameWindow.femaleViewPort = new ViewPort();
-        GameWindow.femaleViewPort.getCamera().follow(FemalePlayer.instanceFemale);
-        GameWindow.femaleViewPort.getCamera().getOffset().set(400, 0);
+        GameWindow.femaleViewPort.getCamera().follow(femalePlayer);
+        GameWindow.femaleViewPort.getCamera().getOffset().set(300, 0);
 
         GameWindow.mainViewPort = new ViewPort();
         GameWindow. mainViewPort.getCamera().followedObject = new GameObject();
