@@ -7,6 +7,9 @@ import game.bases.physics.Physics;
 import game.items.Condom;
 import game.items.Lava;
 import inputs.InputManager;
+import tklibs.AudioUtils;
+
+import javax.sound.sampled.Clip;
 
 import static game.GameWindow.checkLevel;
 import static game.player.FemalePlayer.heart;
@@ -75,12 +78,14 @@ public class MalePlayer extends Player{
                     PoopBullet.position.set(this.position.x - 70, this.position.y - 20);
                     GameObject.add(PoopBullet);
                     bullet--;
+
                 }else{
                     ThrowPoop PoopBullet = new ThrowPoop(new Vector2D(20,0));
                     PoopBullet.position.set(this.position.x + 70, this.position.y - 20);
                     GameObject.add(PoopBullet);
                     bullet--;
                 }
+                AudioUtils.playMedia("assets/music/hit.wav");
                 bulletDisable = true;
             }
         }
@@ -109,6 +114,7 @@ public class MalePlayer extends Player{
         if (eatCondom != null && eatCondom.isActive){
             condom++;
             eatCondom.getEat();
+            AudioUtils.playMedia("assets/music/Pickup_Item.wav");
         }
     }
 

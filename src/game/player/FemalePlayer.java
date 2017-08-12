@@ -7,6 +7,7 @@ import game.bases.physics.Physics;
 import game.items.Heart;
 import game.items.Lava;
 import inputs.InputManager;
+import tklibs.AudioUtils;
 import tklibs.Mathx;
 
 import static game.GameWindow.checkLevel;
@@ -71,6 +72,7 @@ public class FemalePlayer extends Player{
         if (eatHeart != null && eatHeart.isActive){
             heart++;
             eatHeart.getEat();
+            AudioUtils.playMedia("assets/music/Pickup_Item.wav");
         }
     }
 
@@ -90,12 +92,14 @@ public class FemalePlayer extends Player{
                     PoopBullet.position.set(this.position.x - 70, this.position.y - 20);
                     GameObject.add(PoopBullet);
                     bullet--;
+
                 }else{
                     ThrowPoop PoopBullet = new ThrowPoop(new Vector2D(20,0));
                     PoopBullet.position.set(this.position.x + 70, this.position.y - 20);
                     GameObject.add(PoopBullet);
                     bullet--;
                 }
+                AudioUtils.playMedia("assets/music/hit.wav");
                 bulletDisable = true;
             }
         }

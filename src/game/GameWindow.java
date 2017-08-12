@@ -10,6 +10,10 @@ import game.viewports.ViewPort;
 import inputs.InputManager;
 import game.player.FemalePlayer;
 import game.player.MalePlayer;
+import javafx.embed.swing.JFXPanel;
+import javafx.scene.media.MediaPlayer;
+import javafx.util.Duration;
+import tklibs.AudioUtils;
 
 import javax.swing.*;
 import java.awt.*;
@@ -24,6 +28,8 @@ import java.awt.image.BufferedImage;
  * Created by Nttung PC on 8/1/2017.
  */
 public class GameWindow extends JFrame {
+    final JFXPanel jfxPanel = new JFXPanel();
+
     BufferedImage backBufferImage;
     Graphics2D backBufferGraphic2D;
 
@@ -36,6 +42,8 @@ public class GameWindow extends JFrame {
 
     Scene startScene;
     public static int checkLevel = 0;
+
+
 
 
     private BufferedImage leftBufferImage;
@@ -125,7 +133,17 @@ public class GameWindow extends JFrame {
 
     long lastUpdateTime;
     public void loop(){
+        AudioUtils.initialize();
+        MediaPlayer mediaPlayer = AudioUtils.playMedia("assets/music/jamebond.mp3");
         while(true){
+            mediaPlayer.setAutoPlay(true);
+            mediaPlayer.setOnEndOfMedia(new Runnable() {
+                @Override
+                public void run() {
+                    mediaPlayer.seek(Duration.ZERO);
+                }
+            });
+            mediaPlayer.play();
             long curentTime = System.currentTimeMillis();
             if (curentTime - lastUpdateTime > 17){
                 lastUpdateTime = curentTime;
@@ -165,6 +183,17 @@ public class GameWindow extends JFrame {
             mainViewPort.render(backBufferGraphic2D,GameObject.getGameObjects());
             mainViewPort.getCamera().followedObject.position.x = (MalePlayer.instanceMale.position.x + FemalePlayer.instanceFemale.position.x)/2;
             backBufferGraphic2D.drawImage(backBufferImage,0,0,null);
+        }
+        backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/maleplayer/faceboy.png"), 100, this.getHeight() - 50, null);
+        backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/femaleplayer/facegirl.png"), this.getWidth() - 500, this.getHeight() - 50, null);
+
+        for (int i = 1; i <= FemalePlayer.heart; i++){
+            backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/items/heart/heart1.png"), this.getWidth() - 500 + i * 50, this.getHeight() - 50, null);
+
+        }
+
+        for (int i = 1; i <= MalePlayer.condom; i++){
+            backBufferGraphic2D.drawImage(Utils.loadImage("assets/images/items/condom.png"), 100 + i * 50, this.getHeight() - 50, null);
         }
         Graphics2D graphics2D = (Graphics2D) this.getGraphics();
         graphics2D.drawImage(backBufferImage,0,0,null);
