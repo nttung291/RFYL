@@ -27,6 +27,11 @@ public class GameWindow extends JFrame {
     BufferedImage backBufferImage;
     Graphics2D backBufferGraphic2D;
 
+    public static long currentTime1;
+    public static long endTime1;
+    public static long currentTime2;
+    public static long endTime2;
+
     InputManager inputManager = InputManager.instance;
     float distance;
 
@@ -134,21 +139,24 @@ public class GameWindow extends JFrame {
             }
         }
     }
-    boolean nextscene;
-    public void nextLeve2(){
-        if (MalePlayer.hitFemale() || FemalePlayer.hitMale()){
-            SceneManager.instance.requestChangeScene(new Level2Scene());
-            nextscene = true;
+
+    public void nextLevel2(){
+        if ((MalePlayer.hitFemale() || FemalePlayer.heart == 5) && checkLevel == 1){
+           new Level1Scene().nextSence();
         }
-        else nextscene = false;
     }
+
+    public void end(){
+        if ((FemalePlayer.hitMale() || MalePlayer.condom == 5) && checkLevel == 2) {
+            new Level2Scene().nextSence();
+        }
+    }
+
     private void run() {
         GameObject.runAll();
         SceneManager.instance.changeSceneIfNeeded();
-        if (nextscene){
-           nextLeve2();
-        }
-        nextLeve2();
+        nextLevel2();
+        end();
     }
 
     private void render() {

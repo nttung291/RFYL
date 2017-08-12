@@ -1,5 +1,6 @@
 package game.scenes;
 
+import game.GameWindow;
 import game.Utils;
 import game.bases.GameObject;
 import game.bases.renderer.ImageRenderer;
@@ -20,7 +21,6 @@ public class MenuScene extends Scene implements InputListener{
         introImage.renderer = new ImageRenderer(Utils.loadImage("assets/startScene/rfyl.jpg"));
         introImage.position.set(Settings.windowWidth / 2, Settings.windowHeight / 2);
         GameObject.add(introImage);
-
         InputManager.instance.register(this);
     }
 
@@ -31,6 +31,7 @@ public class MenuScene extends Scene implements InputListener{
 
     @Override
     public boolean onKeyReleased(int keyCode) {
+        GameWindow.currentTime1 = System.currentTimeMillis();
         SceneManager.instance.requestChangeScene(new Level1Scene());
         return true;
     }

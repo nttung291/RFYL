@@ -96,4 +96,9 @@ public class Level2Scene extends Scene {
         GameObject.add(malePlayer.setPosition(6000, 670));
         GameObject.add(femalePlayer.setPosition(6200, 670));
     }
+
+    public void nextSence(){
+        GameWindow.endTime2 = System.currentTimeMillis();
+        SceneManager.instance.requestChangeScene(new EndScene());
+    }
 }

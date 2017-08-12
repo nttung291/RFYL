@@ -5,5 +5,5 @@ package game.scenes;
  */
 public class Settings {
     public static float windowWidth = 1024;
-    public static float windowHeight = 600;
+    public static float windowHeight = 800;
 }

@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import game.GameWindow;
 import game.Utils;
 import game.bases.GameObject;
+import game.bases.Vector2D;
 import game.gson.MapJson;
 import game.items.*;
 import game.player.FemalePlayer;
@@ -12,6 +13,7 @@ import game.player.Player;
 import game.viewports.ViewPort;
 
 import static game.GameWindow.checkLevel;
+import static game.GameWindow.endTime1;
 
 /**
  * Created by SNOW on 8/12/2017.
@@ -20,6 +22,7 @@ public class Level1Scene extends Scene {
     public Player malePlayer;
     public Player femalePlayer;
     MapJson readJson = new MapJson();
+
     @Override
     public void init() {
         addBackGround();
@@ -29,6 +32,7 @@ public class Level1Scene extends Scene {
         addViewPorts();
         checkLevel = 1;
     }
+
 
     public void addBackGround(){
         BackGround backGround = new BackGround();
@@ -97,4 +101,9 @@ public class Level1Scene extends Scene {
         GameObject.add(femalePlayer.setPosition(300, 670));
     }
 
+    public void nextSence(){
+        endTime1 = System.currentTimeMillis();
+        GameWindow.currentTime2 = endTime1;
+        SceneManager.instance.requestChangeScene(new Level2Scene());
+    }
 }
